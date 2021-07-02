@@ -361,7 +361,7 @@
         </v-menu>
         -->
 
-        <ResultOption
+        <CShareButtons
           class="ma-1"
           :item="{
             label: title,
@@ -376,11 +376,11 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 // import ShareButtons from '~/components/common/ShareButtons.vue'
-import ResultOption from '~/components/display/ResultOption.vue'
+import CShareButtons from '~/components/common/CShareButtons.vue'
 
 @Component({
   components: {
-    ResultOption,
+    CShareButtons,
     // ShareButtons,
   },
 })

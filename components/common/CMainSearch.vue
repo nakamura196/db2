@@ -1,11 +1,11 @@
 <template>
   <div>
-    <BMenu :items="bh"></BMenu>
+    <c-breadcrumbs :items="bh"/>
 
     <v-container class="my-5">
       <h2>{{ config.label }}</h2>
 
-      <Loading :loading="loading"></Loading>
+      <CLoading :loading="loading"></CLoading>
 
       <template v-if="!loading">
         <v-row class="mt-2" dense justify="center" align-content="center">
@@ -23,14 +23,14 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'nuxt-property-decorator'
-import BMenu from '~/components/common/BMenu.vue'
-import Loading from '~/components/common/Loading.vue'
+import CLoading from '~/components/common/CLoading.vue'
+import CBreadcrumbs from '~/components/common/CLoading.vue'
 import FullTextSearch from '~/components/common/search/FullTextSearch.vue'
 
 @Component({
   components: {
-    BMenu,
-    Loading,
+    CBreadcrumbs,
+    CLoading,
     FullTextSearch,
   },
 })

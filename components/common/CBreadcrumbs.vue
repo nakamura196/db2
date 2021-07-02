@@ -1,5 +1,5 @@
 <template>
-  <v-sheet v-if="isBc" color="grey lighten-2">
+  <v-sheet color="grey lighten-2">
     <v-container fluid class="py-4">
       <v-breadcrumbs class="py-0" :items="items">
         <template #divider>
@@ -15,9 +15,7 @@ import { Component, Vue, Prop } from 'nuxt-property-decorator'
 
 @Component
 export default class Page extends Vue {
-  @Prop({ required: true })
+  @Prop({ required: true, 'default': () => ([]) })
   items!: any
-
-  isBc: any = process.env.bc
 }
 </script>

@@ -57,7 +57,7 @@
           </p>
         </div>
         <div class="text-right">
-          <ResultOption
+          <CShareButtons
           :item="{
             label: item.label,
             url: localePath({
@@ -75,11 +75,11 @@
 <script lang="ts">
 import { Prop, Vue, Component, Watch } from 'nuxt-property-decorator'
 
-import ResultOption from '~/components/display/ResultOption.vue'
+import CShareButtons from '~/components/common/CShareButtons.vue'
 
 @Component({
   components: {
-ResultOption
+CShareButtons
 }
 })
 export default class FullTextSearch extends Vue {

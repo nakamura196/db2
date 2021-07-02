@@ -165,11 +165,11 @@
 
 <script lang="ts">
 import { Prop, Vue, Component } from 'nuxt-property-decorator'
-import ResultOption from '~/components/display/ResultOption.vue'
+import CShareButtons from '~/components/common/CShareButtons.vue'
 
 @Component({
   components: {
-    ResultOption,
+    CShareButtons,
   },
 })
 export default class FullTextSearch extends Vue {

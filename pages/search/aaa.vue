@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainSearch :bh="bh"></MainSearch>
+    <CMainSearch :bh="bh"></CMainSearch>
     <!-- <BMenu :items="bh"></BMenu> -->
     <!--
     <v-sheet v-if="isBc" color="grey lighten-2">
@@ -381,7 +381,7 @@
 <script>
 // import axios from 'axios'
 // import BMenu from '~/components/common/BMenu.vue'
-import MainSearch from '~/components/common/MainSearch.vue'
+import MainSearch from '~/components/common/CMainSearch.vue'
 // import FullTextSearch from '~/components/search/FullTextSearch.vue'
 // import SearchAdvanced from '~/components/search/Advanced.vue'
 // import SearchLayoutGraph from '~/components/search/layout/Graph.vue'

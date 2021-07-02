@@ -354,4 +354,7 @@ module.exports = {
     // eslint-disable-next-line
     extend(config, ctx) {}
   },
+  storybook: {
+    // Options
+  }
 }
