@@ -1,35 +1,9 @@
 <template>
   <div>
-    <CMainSearch :bh="bh"></CMainSearch>
-    <!-- <BMenu :items="bh"></BMenu> -->
-    <!--
-    <v-sheet v-if="isBc" color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
-    -->
+    <CMainSearch></CMainSearch>
     <!--
     <v-container class="my-5">
       <h2>{{ title }}</h2>
-
-      <template v-if="loading">
-        <div class="text-center">
-          <v-progress-circular
-            indeterminate
-            color="primary"
-            class="my-10"
-          ></v-progress-circular>
-
-          <p>
-            初回はインデックスファイルのダウンロードに時間を要します。2回目以降はキャッシュにより待ち時間が改善します。
-          </p>
-        </div>
-      </template>
 
       <template v-else>
         <v-row class="mt-2" dense justify="center" align-content="center">
@@ -381,7 +355,7 @@
 <script>
 // import axios from 'axios'
 // import BMenu from '~/components/common/BMenu.vue'
-import MainSearch from '~/components/common/CMainSearch.vue'
+import CMainSearch from '~/components/common/CMainSearch.vue'
 // import FullTextSearch from '~/components/search/FullTextSearch.vue'
 // import SearchAdvanced from '~/components/search/Advanced.vue'
 // import SearchLayoutGraph from '~/components/search/layout/Graph.vue'
@@ -392,7 +366,7 @@ import MainSearch from '~/components/common/CMainSearch.vue'
 export default {
   components: {
     // BMenu,
-    MainSearch,
+    CMainSearch,
     // FullTextSearch,
     // SearchAdvanced,
     // SearchLayoutGraph,
@@ -438,7 +412,14 @@ export default {
     }
   },
 
+  head() {
+    return {
+      title: this.$t(this.title),
+    }
+  },
+
   computed: {
+    /*
     config: {
       get() {
         let slug = this.slug
@@ -450,6 +431,7 @@ export default {
       },
       set() {},
     },
+    */
     aggsConfig: {
       get() {
         return this.config.aggs
@@ -493,6 +475,7 @@ export default {
         // this.sort = value value
       },
     },
+    /*
     title: {
       get() {
         return this.config.label
@@ -501,6 +484,7 @@ export default {
         // this.sort = value value
       },
     },
+    */
     bh: {
       get() {
         return [
@@ -869,12 +853,6 @@ export default {
       }
       return labels
     },
-  },
-
-  head() {
-    return {
-      title: this.$t(this.title),
-    }
   },
 }
 </script>

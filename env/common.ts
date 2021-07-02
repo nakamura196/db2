@@ -17,7 +17,7 @@ module.exports = {
       label: '検索',
       index: 'index.json',
       to: {
-        name: 'search-slug',
+        name: 'search-aaa',
       },
       aggs: {
         '基-収録巻次': {

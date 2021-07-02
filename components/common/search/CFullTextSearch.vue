@@ -36,7 +36,7 @@
           >
             <v-list-item-title>
               <template v-if="item.label === '全件表示'">
-                <span style="color: #4caf50;">
+                <span style="color: #4caf50">
                   {{ item.label }}
                 </span>
               </template>
@@ -78,6 +78,8 @@ export default class FullTextSearch extends Vue {
 
   advancedSearchFlag: boolean = false
 
+  to: any = {}
+
   @Prop({ default: 'default' })
   configId!: string
 
@@ -112,9 +114,14 @@ export default class FullTextSearch extends Vue {
   created() {
     const env: any = process.env.config
     const config: any = env[(this as any).configId]
+
+    console.log({ config })
+
     if (config.advanced.length > 0) {
       this.advancedSearchFlag = true
     }
+
+    this.to = config.to
 
     const query = this.$route.query
     if (query['main[query]']) {
@@ -183,11 +190,13 @@ export default class FullTextSearch extends Vue {
 
     localStorage.setItem(this.key, JSON.stringify(items.slice(0, 5)))
 
+    const to = this.to
+    to.query = query
+
+    console.log({ to })
+
     this.$router.push(
-      this.localePath({
-        name: 'search',
-        query,
-      }),
+      this.localePath(to),
       () => {},
       () => {}
     )

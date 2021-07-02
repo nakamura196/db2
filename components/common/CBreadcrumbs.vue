@@ -15,7 +15,7 @@ import { Component, Vue, Prop } from 'nuxt-property-decorator'
 
 @Component
 export default class Page extends Vue {
-  @Prop({ required: true, 'default': () => ([]) })
+  @Prop({ required: true, default: () => [] })
   items!: any
 }
 </script>
