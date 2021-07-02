@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00551.json",
+    "ex:sat": [
+        {
+            "@id": "data:00551.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0132_.02.0854c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00551.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00551.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0132",
+            "ex:toページ": 186,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=34",
+            "ex:ページ": "186",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00551.json#基本情報",
+            "ex:No.": "00551",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0132.json",
+                    "ex:出版年月日": [
+                        "1924-09-15"
+                    ],
+                    "ex:収録巻次": 2,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説食施獲五福報經",
+                    "ex:経典番号": "T0132",
+                    "ex:部門": "阿含部下",
+                    "ex:配本": [
+                        5
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00551.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.854〈2〉此經與宋元明大異對校甚難故今以宋元對校明本別附卷末",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

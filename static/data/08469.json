@@ -1,0 +1,113 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08469.json",
+    "ex:sat": [
+        {
+            "@id": "data:08469.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1910_.45.0967c27.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08469.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08469.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1590",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:❹": "增上寺報恩藏本",
+            "ex:❼": "明萬暦十八年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08469.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08469.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1943",
+            "ex:toページ": 491,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=339",
+            "ex:ページ": "491",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08469.json#基本情報",
+            "ex:No.": "08469",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1910.json",
+                    "ex:出版年月日": [
+                        "1927-09-15"
+                    ],
+                    "ex:収録巻次": 45,
+                    "ex:枝番": 1,
+                    "ex:経典名": "慈悲水懺法",
+                    "ex:経典番号": "T1910",
+                    "ex:部門": "諸宗部2",
+                    "ex:配本": [
+                        41
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08469.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08469.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1590",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:テキスト": "明萬暦十八年刊增上寺報恩藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08469.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:08469.json#酉目1",
+            "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1530",
+            "ex:枝番": 1,
+            "ex:經典番號": "U1516",
+            "ex:通番": "1530"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08469.json#酉蓮社本IIIFコレクション1",
+            "ex:from": 1,
+            "ex:to": 50,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/28afbe6a9ea63a090aaee0144a63ec78/manifest.json",
+            "ex:画像フォルダ": "u-renja1530",
+            "ex:経典名": "慈悲水懺灋3卷"
+        }
+    ]
+}

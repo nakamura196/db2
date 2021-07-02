@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09153.json",
+    "ex:sat": [
+        {
+            "@id": "data:09153.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2141B_.54.1281a14.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09153.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09153.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2184",
+            "ex:toページ": 648,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=496",
+            "ex:ページ": "648",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09153.json#基本情報",
+            "ex:No.": "09153",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2141B.json",
+                    "ex:出版年月日": [
+                        "1928-09-15"
+                    ],
+                    "ex:収録巻次": 54,
+                    "ex:枝番": 3,
+                    "ex:経典名": "波斯教殘經",
+                    "ex:経典番号": "T2141B",
+                    "ex:部門": "事彙部下/外教部全",
+                    "ex:配本": [
+                        53
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09153.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

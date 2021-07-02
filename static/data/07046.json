@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07046.json",
+    "ex:sat": [
+        {
+            "@id": "data:07046.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1545_.27.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07046.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07046.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:巻": "3",
+                    "ex:年": "618",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "中村雅眞藏本",
+                    "ex:～年": "907"
+                }
+            ],
+            "ex:❹": "中村本",
+            "ex:❼": "中村雅眞藏本、卷第三、唐時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07046.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "中村雅眞"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07046.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1576",
+            "ex:toページ": 415,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=263",
+            "ex:ページ": "415",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07046.json#基本情報",
+            "ex:No.": "07046",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1545.json",
+                    "ex:出版年月日": [
+                        "1926-07-15"
+                    ],
+                    "ex:収録巻次": 27,
+                    "ex:枝番": 1,
+                    "ex:経典名": "阿毘達磨大毘婆沙論",
+                    "ex:経典番号": "T1545",
+                    "ex:部門": "毘曇部2",
+                    "ex:配本": [
+                        27
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07046.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

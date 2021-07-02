@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04515.json",
+    "ex:sat": [
+        {
+            "@id": "data:04515.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0924B_.19.0030b05.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04515.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04515.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1137",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "高山寺藏本"
+                }
+            ],
+            "ex:❹": "高山寺本",
+            "ex:❼": "保延三年寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04515.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "高山寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04515.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0929",
+            "ex:toページ": 320,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=168",
+            "ex:ページ": "320",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04515.json#基本情報",
+            "ex:No.": "04515",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0924B.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 2,
+                    "ex:経典名": "藥師如來念誦儀軌",
+                    "ex:経典番号": "T0924B",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04515.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04515.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1137",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "高山寺藏本"
+                }
+            ],
+            "ex:テキスト": "保延三年寫高山寺藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04515.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "高山寺"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

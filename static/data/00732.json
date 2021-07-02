@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00732.json",
+    "ex:sat": [
+        {
+            "@id": "data:00732.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0175_.03.0438b06.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00732.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00732.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0176",
+            "ex:toページ": 193,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=40",
+            "ex:ページ": "192",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00732.json#基本情報",
+            "ex:No.": "00732",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0175.json",
+                    "ex:出版年月日": [
+                        "1924-06-20"
+                    ],
+                    "ex:収録巻次": 3,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説睒子經",
+                    "ex:経典番号": "T0175",
+                    "ex:部門": "本縁部上",
+                    "ex:配本": [
+                        2
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00732.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.438〈5〉此經麗本也三本大異宋本與元明亦異對校甚難故以宋附卷末以元校明又出其次",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:05709.json",
+    "ex:sat": [
+        {
+            "@id": "data:05709.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1233_.21.0171b01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:05709.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:05709.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1264",
+            "ex:toページ": 365,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=213",
+            "ex:ページ": "365",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:05709.json#基本情報",
+            "ex:No.": "05709",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1233.json",
+                    "ex:出版年月日": [
+                        "1928-08-15"
+                    ],
+                    "ex:収録巻次": 21,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説無能勝大明王陀羅尼經",
+                    "ex:経典番号": "T1233",
+                    "ex:部門": "密教部4",
+                    "ex:配本": [
+                        52
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:05709.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.171〈15〉此經宋元明三本倶缺",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

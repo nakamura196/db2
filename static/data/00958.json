@@ -1,0 +1,68 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00958.json",
+    "ex:sat": [
+        {
+            "@id": "data:00958.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0223_.08.0217a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00958.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:00958.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "西域",
+                    "ex:標準名称": "梵本"
+                }
+            ],
+            "ex:❹": "梵本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00958.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0224",
+            "ex:toページ": 210,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=56",
+            "ex:ページ": "208",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00958.json#基本情報",
+            "ex:No.": "00958",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0223.json",
+                    "ex:出版年月日": [
+                        "1924-08-15"
+                    ],
+                    "ex:収録巻次": 8,
+                    "ex:枝番": 1,
+                    "ex:経典名": "摩訶般若波羅蜜經",
+                    "ex:経典番号": "T0223",
+                    "ex:部門": "般若部4",
+                    "ex:配本": [
+                        4
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00958.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

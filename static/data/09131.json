@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09131.json",
+    "ex:sat": [
+        {
+            "@id": "data:09131.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2134_.54.1216b10.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09131.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09131.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "慈覺大師請來千字文寫本",
+                    "ex:関与形態": "請來",
+                    "ex:関与者": "慈覺大師"
+                }
+            ],
+            "ex:❹": "慈覺大師請來千字文寫本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09131.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2176",
+            "ex:toページ": 648,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=496",
+            "ex:ページ": "648",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09131.json#基本情報",
+            "ex:No.": "09131",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2134.json",
+                    "ex:出版年月日": [
+                        "1928-09-15"
+                    ],
+                    "ex:収録巻次": 54,
+                    "ex:枝番": 1,
+                    "ex:経典名": "唐梵文字",
+                    "ex:経典番号": "T2134",
+                    "ex:部門": "事彙部下/外教部全",
+                    "ex:配本": [
+                        53
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09131.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09131.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "慈覺大師請來千字文寫本",
+                    "ex:関与形態": "請來",
+                    "ex:関与者": "慈覺大師"
+                }
+            ],
+            "ex:テキスト": "慈覺大師請來千字文寫本（No. 2133, A）",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈丙〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

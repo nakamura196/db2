@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04916.json",
+    "ex:sat": [
+        {
+            "@id": "data:04916.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1026_.19.0726a06.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04916.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04916.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "805",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "三十帖策子本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04916.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04916.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1042",
+            "ex:toページ": 336,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=184",
+            "ex:ページ": "336",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04916.json#基本情報",
+            "ex:No.": "04916",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1026.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説造塔延命功德經",
+                    "ex:経典番号": "T1026",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04916.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04916.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "C. 800",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本（第17帖）"
+                }
+            ],
+            "ex:テキスト": "三十帖策子第十七帖",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04916.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

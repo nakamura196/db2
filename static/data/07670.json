@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07670.json",
+    "ex:sat": [
+        {
+            "@id": "data:07670.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1665_.32.0572b17.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07670.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07670.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1151",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "麗本"
+                }
+            ],
+            "ex:❹": "麗本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07670.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1696",
+            "ex:toページ": 445,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=293",
+            "ex:ページ": "445",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07670.json#基本情報",
+            "ex:No.": "07670",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1665.json",
+                    "ex:出版年月日": [
+                        "1925-11-15"
+                    ],
+                    "ex:収録巻次": 32,
+                    "ex:枝番": 1,
+                    "ex:経典名": "金剛頂瑜伽中發阿耨多羅三藐三菩提心論",
+                    "ex:経典番号": "T1665",
+                    "ex:部門": "論集部全",
+                    "ex:配本": [
+                        19
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07670.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07670.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1151",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "麗本"
+                }
+            ],
+            "ex:テキスト": "〔麗本〕",
+            "ex:備考": "p.572〈4〉此論宋本元本缺",
+            "ex:底本/校本": "底本",
+            "ex:底本推定": "勘同目録により推定",
+            "ex:所蔵者": [],
+            "ex:略号解説": "〈麗〉麗本（The ‘Kao-Li Edition’ A. D. 1151）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,9 @@
+{
+    "@context": [
+        {
+            "data": "https://taishozo.github.io/db/data",
+            "ex": "http://example.org/",
+            "keiten": "https://taishozo.github.io/db/経典番号/"
+        }
+    ]
+}

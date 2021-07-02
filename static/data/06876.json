@@ -1,0 +1,96 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06876.json",
+    "ex:sat": [
+        {
+            "@id": "data:06876.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1512_.25.0798a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06876.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:06876.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": 1603,
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "智積院藏本",
+                    "ex:～年": 1868
+                }
+            ],
+            "ex:❹": "智積院本",
+            "ex:❼": "德川時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06876.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "智積院"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06876.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1543",
+            "ex:toページ": 408,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=256",
+            "ex:ページ": "408",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06876.json#基本情報",
+            "ex:No.": "06876",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1512.json",
+                    "ex:出版年月日": [
+                        "1926-01-15"
+                    ],
+                    "ex:収録巻次": 25,
+                    "ex:枝番": 1,
+                    "ex:経典名": "金剛仙論",
+                    "ex:経典番号": "T1512",
+                    "ex:部門": "釈経論部上",
+                    "ex:配本": [
+                        21
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06876.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:06876.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "智積院藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:テキスト": "德川時代寫經智積院藏〈甲〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06876.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "智積院"
+                }
+            ]
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,113 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08037.json",
+    "ex:sat": [
+        {
+            "@id": "data:08037.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1800_.39.0968a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08037.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08037.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1664",
+                    "ex:時代": "清",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:❹": "增上寺報恩藏本",
+            "ex:❼": "淸康熙三年八月刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08037.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08037.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1832",
+            "ex:toページ": 467,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=315",
+            "ex:ページ": "467",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08037.json#基本情報",
+            "ex:No.": "08037",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1800.json",
+                    "ex:出版年月日": [
+                        "1927-02-15"
+                    ],
+                    "ex:収録巻次": 39,
+                    "ex:枝番": 1,
+                    "ex:経典名": "請觀音經疏",
+                    "ex:経典番号": "T1800",
+                    "ex:部門": "経疏部7",
+                    "ex:配本": [
+                        34
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08037.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08037.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1664",
+                    "ex:時代": "清",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:テキスト": "淸康熙三年八月刊增上寺報恩藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08037.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:08037.json#酉目1",
+            "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1570",
+            "ex:枝番": 1,
+            "ex:經典番號": "U1555",
+            "ex:通番": "1570"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08037.json#酉蓮社本IIIFコレクション1",
+            "ex:from": 1,
+            "ex:to": 36,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/853a1449ad94693607706ca71bbb7cec/manifest.json",
+            "ex:画像フォルダ": "u-renja1570-1571",
+            "ex:経典名": "請觀音經疏1卷"
+        }
+    ]
+}

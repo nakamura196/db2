@@ -1,0 +1,80 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06461.json",
+    "ex:sat": [
+        {
+            "@id": "data:06461.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1435_.23.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06461.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:06461.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "22",
+                    "ex:年": "740",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "森田淸太郎藏本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "光明皇后"
+                }
+            ],
+            "ex:❹": "森田本",
+            "ex:❼": "森田淸太郎藏本、卷第二十二、天平十二年寫　光明皇后御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06461.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "森田淸太郎"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06461.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1466",
+            "ex:toページ": 390,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=237",
+            "ex:ページ": "389",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06461.json#基本情報",
+            "ex:No.": "06461",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1435.json",
+                    "ex:出版年月日": [
+                        "1925-10-15"
+                    ],
+                    "ex:収録巻次": 23,
+                    "ex:枝番": 1,
+                    "ex:経典名": "十誦律",
+                    "ex:経典番号": "T1435",
+                    "ex:部門": "律部2",
+                    "ex:配本": [
+                        18
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06461.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09230.json",
+    "ex:sat": [
+        {
+            "@id": "data:09230.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2168A_.55.1087c02.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09230.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09230.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1911",
+                    "ex:時代": "明治-大正",
+                    "ex:標準名称": "大日本佛教全書",
+                    "ex:～年": "1922"
+                }
+            ],
+            "ex:❹": "大日本佛教全書本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09230.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2211",
+            "ex:toページ": 654,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=502",
+            "ex:ページ": "654",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09230.json#基本情報",
+            "ex:No.": "09230",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2168A.json",
+                    "ex:出版年月日": [
+                        "1928-11-15"
+                    ],
+                    "ex:収録巻次": 55,
+                    "ex:枝番": 1,
+                    "ex:経典名": "惠運禪師將來教法目録",
+                    "ex:経典番号": "T2168A",
+                    "ex:部門": "目録部全",
+                    "ex:配本": [
+                        55
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09230.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09230.json#テキスト1（脚注）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1911",
+                    "ex:時代": "明治-大正",
+                    "ex:標準名称": "大日本佛教全書",
+                    "ex:～年": "1922"
+                }
+            ],
+            "ex:テキスト": "大日本佛教全書",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

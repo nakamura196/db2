@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08422.json",
+    "ex:sat": [
+        {
+            "@id": "data:08422.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1887B_.45.0716a23.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08422.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08422.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1920",
+            "ex:toページ": 488,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=336",
+            "ex:ページ": "488",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08422.json#基本情報",
+            "ex:No.": "08422",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1887B.json",
+                    "ex:出版年月日": [
+                        "1927-09-15"
+                    ],
+                    "ex:収録巻次": 45,
+                    "ex:枝番": 2,
+                    "ex:経典名": "法界圖記叢髓録",
+                    "ex:経典番号": "T1887B",
+                    "ex:部門": "諸宗部2",
+                    "ex:配本": [
+                        41
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08422.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

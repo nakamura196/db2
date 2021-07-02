@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08400.json",
+    "ex:sat": [
+        {
+            "@id": "data:08400.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1878_.45.0650c19.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08400.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08400.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:❹": "宗教大學本",
+            "ex:❼": "德川時代刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08400.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08400.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1910",
+            "ex:toページ": 487,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=335",
+            "ex:ページ": "487",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08400.json#基本情報",
+            "ex:No.": "08400",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1878.json",
+                    "ex:出版年月日": [
+                        "1927-09-15"
+                    ],
+                    "ex:収録巻次": 45,
+                    "ex:枝番": 1,
+                    "ex:経典名": "華嚴發菩提心章",
+                    "ex:経典番号": "T1878",
+                    "ex:部門": "諸宗部2",
+                    "ex:配本": [
+                        41
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08400.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08400.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:テキスト": "德川時代刊宗教大學藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08400.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

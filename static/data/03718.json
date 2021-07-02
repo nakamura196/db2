@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03718.json",
+    "ex:sat": [
+        {
+            "@id": "data:03718.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0752_.17.0574b17.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03718.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03718.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0753",
+            "ex:toページ": 295,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=143",
+            "ex:ページ": "295",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03718.json#基本情報",
+            "ex:No.": "03718",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0752.json",
+                    "ex:出版年月日": [
+                        "1925-09-15"
+                    ],
+                    "ex:収録巻次": 17,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説五無返復經（一卷）（劉宋沮渠京聲譯）",
+                    "ex:経典番号": "T0752",
+                    "ex:部門": "経集部4",
+                    "ex:配本": [
+                        17
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03718.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.574〈4〉此經麗本宋本元本倶無依明本載",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

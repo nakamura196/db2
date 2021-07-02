@@ -1,0 +1,88 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01243.json",
+    "ex:sat": [
+        {
+            "@id": "data:01243.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0278_.09.0395a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01243.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01243.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "36,38",
+                    "ex:年": "768",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "西福寺藏本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "孝謙天皇"
+                },
+                {
+                    "@id": "data:01243.json#テキスト2（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:刊写者": "魚養",
+                    "ex:国": "日本",
+                    "ex:巻": "30",
+                    "ex:標準名称": "西福寺藏本"
+                }
+            ],
+            "ex:❹": "西福寺本",
+            "ex:❼": "西福寺本　卷第三十六、第三十八、神護景雲二年孝謙天皇御願、卷第三十、魚養筆",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01243.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "西福寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01243.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0279",
+            "ex:toページ": 228,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=73",
+            "ex:ページ": "225",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01243.json#基本情報",
+            "ex:No.": "01243",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0278.json",
+                    "ex:出版年月日": [
+                        "1925-07-15"
+                    ],
+                    "ex:収録巻次": 9,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大方廣佛華嚴經六十卷（東晋佛駄跋陀羅譯）",
+                    "ex:経典番号": "T0278",
+                    "ex:部門": "法華部全/華厳部上",
+                    "ex:配本": [
+                        15
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01243.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04273.json",
+    "ex:sat": [
+        {
+            "@id": "data:04273.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0866_.18.0223b24.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04273.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04273.json#テキスト1（勘同目録）",
+                    "ex:標準名称": "知恩院藏本"
+                }
+            ],
+            "ex:❹": "知恩院本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04273.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "知恩院"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04273.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0868",
+            "ex:toページ": 309,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=157",
+            "ex:ページ": "309",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04273.json#基本情報",
+            "ex:No.": "04273",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0866.json",
+                    "ex:出版年月日": [
+                        "1928-04-15"
+                    ],
+                    "ex:収録巻次": 18,
+                    "ex:枝番": 1,
+                    "ex:経典名": "金剛頂瑜伽中略出念誦經",
+                    "ex:経典番号": "T0866",
+                    "ex:部門": "密教部1",
+                    "ex:配本": [
+                        48
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04273.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04273.json#テキスト1（脚注）",
+                    "ex:標準名称": "知恩院藏本"
+                }
+            ],
+            "ex:テキスト": "神護景雲二年寫知恩院藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04273.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "知恩院"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,93 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08283.json",
+    "ex:sat": [
+        {
+            "@id": "data:08283.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1830_.43.0229a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08283.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08283.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "奈良興福寺",
+                    "ex:国": "日本",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:❹": "東大寺本",
+            "ex:❼": "春日版",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08283.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08283.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1862",
+            "ex:toページ": 474,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=322",
+            "ex:ページ": "474",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08283.json#基本情報",
+            "ex:No.": "08283",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1830.json",
+                    "ex:出版年月日": [
+                        "1928-07-15"
+                    ],
+                    "ex:収録巻次": 43,
+                    "ex:枝番": 1,
+                    "ex:経典名": "成唯識論述記",
+                    "ex:経典番号": "T1830",
+                    "ex:部門": "論疏部4",
+                    "ex:配本": [
+                        51
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08283.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08283.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "奈良興福寺",
+                    "ex:国": "日本",
+                    "ex:標準名称": "東大寺藏本（春日版）"
+                }
+            ],
+            "ex:テキスト": "春日版東大寺藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08283.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

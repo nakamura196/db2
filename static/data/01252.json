@@ -1,0 +1,88 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01252.json",
+    "ex:sat": [
+        {
+            "@id": "data:01252.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0279_.10.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01252.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01252.json#テキスト1（勘同目録）",
+                    "ex:標準名称": "聖別本"
+                }
+            ],
+            "ex:❹": "聖別本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01252.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01252.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0280",
+            "ex:toページ": 229,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=76",
+            "ex:ページ": "228",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01252.json#基本情報",
+            "ex:No.": "01252",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0279.json",
+                    "ex:出版年月日": [
+                        "1925-08-15"
+                    ],
+                    "ex:収録巻次": 10,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大方廣佛華嚴經八十卷（唐實叉難陀譯）",
+                    "ex:経典番号": "T0279",
+                    "ex:部門": "華厳部下",
+                    "ex:配本": [
+                        16
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01252.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:01252.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:標準名称": "聖本（聖乙）"
+                }
+            ],
+            "ex:テキスト": "〈聖乙〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01252.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖乙〉正倉院聖語藏本別寫（Another copy of the same）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

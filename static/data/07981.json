@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07981.json",
+    "ex:sat": [
+        {
+            "@id": "data:07981.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1776_.38.0421a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07981.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07981.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1713",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本"
+                }
+            ],
+            "ex:❹": "宗教大學本",
+            "ex:❼": "正德三年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07981.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07981.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1808",
+            "ex:toページ": 463,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=311",
+            "ex:ページ": "463",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07981.json#基本情報",
+            "ex:No.": "07981",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1776.json",
+                    "ex:出版年月日": [
+                        "1926-12-15"
+                    ],
+                    "ex:収録巻次": 38,
+                    "ex:枝番": 1,
+                    "ex:経典名": "維摩義記",
+                    "ex:経典番号": "T1776",
+                    "ex:部門": "経疏部6",
+                    "ex:配本": [
+                        32
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07981.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07981.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1713",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本"
+                }
+            ],
+            "ex:テキスト": "正德三年刊宗教大學藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07981.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08464.json",
+    "ex:sat": [
+        {
+            "@id": "data:08464.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1908_.45.0921c04.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08464.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08464.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1185",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "東寺寶菩提院藏本",
+                    "ex:～年": "1333"
+                }
+            ],
+            "ex:❹": "東寺寶菩提院本",
+            "ex:❼": "鎌倉時代寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08464.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東寺寶菩提院"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08464.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1941",
+            "ex:toページ": 491,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=339",
+            "ex:ページ": "491",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08464.json#基本情報",
+            "ex:No.": "08464",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1908.json",
+                    "ex:出版年月日": [
+                        "1927-09-15"
+                    ],
+                    "ex:収録巻次": 45,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘六情懺悔",
+                    "ex:経典番号": "T1908",
+                    "ex:部門": "諸宗部2",
+                    "ex:配本": [
+                        41
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08464.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08464.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1185",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "寶菩提院藏本",
+                    "ex:～年": "1333"
+                }
+            ],
+            "ex:テキスト": "鎌倉時代寫京都寶菩提院藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08464.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "寶菩提院"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

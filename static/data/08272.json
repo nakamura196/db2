@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08272.json",
+    "ex:sat": [
+        {
+            "@id": "data:08272.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1824_.42.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08272.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08272.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1856",
+            "ex:toページ": 472,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=319",
+            "ex:ページ": "471",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08272.json#基本情報",
+            "ex:No.": "08272",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1824.json",
+                    "ex:出版年月日": [
+                        "1927-04-15"
+                    ],
+                    "ex:収録巻次": 42,
+                    "ex:枝番": 1,
+                    "ex:経典名": "中觀論疏",
+                    "ex:経典番号": "T1824",
+                    "ex:部門": "論疏部3",
+                    "ex:配本": [
+                        36
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08272.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

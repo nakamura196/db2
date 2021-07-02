@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:05069.json",
+    "ex:sat": [
+        {
+            "@id": "data:05069.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1065_.20.0119c18.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:05069.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:05069.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "東寺三密藏藏本",
+                    "ex:関与形態": "傳領",
+                    "ex:関与者": "成賢"
+                }
+            ],
+            "ex:❹": "東寺三密藏本",
+            "ex:❼": "成賢傳領本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:05069.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東寺三密藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:05069.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1086",
+            "ex:toページ": 342,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=190",
+            "ex:ページ": "342",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:05069.json#基本情報",
+            "ex:No.": "05069",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1065.json",
+                    "ex:出版年月日": [
+                        "1928-06-15"
+                    ],
+                    "ex:収録巻次": 20,
+                    "ex:枝番": 1,
+                    "ex:経典名": "千光眼觀自在菩薩祕密法經",
+                    "ex:経典番号": "T1065",
+                    "ex:部門": "密教部3",
+                    "ex:配本": [
+                        50
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:05069.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:05069.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "東寺三密藏藏本",
+                    "ex:関与形態": "傳領",
+                    "ex:関与者": "成賢"
+                }
+            ],
+            "ex:テキスト": "東寺三密藏成賢傳領",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:05069.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東寺三密藏"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

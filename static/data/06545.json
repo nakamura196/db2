@@ -1,0 +1,75 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06545.json",
+    "ex:sat": [
+        {
+            "@id": "data:06545.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1453_.24.0455c05.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06545.json#勘同目録",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06545.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1484",
+            "ex:toページ": 397,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=245",
+            "ex:ページ": "397",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06545.json#基本情報",
+            "ex:No.": "06545",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1453.json",
+                    "ex:出版年月日": [
+                        "1926-06-15"
+                    ],
+                    "ex:収録巻次": 24,
+                    "ex:枝番": 1,
+                    "ex:経典名": "根本説一切有部百一羯磨",
+                    "ex:経典番号": "T1453",
+                    "ex:部門": "律部3",
+                    "ex:配本": [
+                        26
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06545.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:06545.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:標準名称": "聖本（聖乙）"
+                }
+            ],
+            "ex:テキスト": "〈聖乙〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06545.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖乙〉正倉院聖語藏本別寫（Another copy of the same）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

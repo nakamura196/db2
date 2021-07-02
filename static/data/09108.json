@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09108.json",
+    "ex:sat": [
+        {
+            "@id": "data:09108.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2126_.54.0234a10.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09108.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09108.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1905",
+                    "ex:時代": "明治・大正",
+                    "ex:標準名称": "大日本續藏經",
+                    "ex:～年": "1912"
+                }
+            ],
+            "ex:❹": "續藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09108.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2167",
+            "ex:toページ": 632,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=480",
+            "ex:ページ": "632",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09108.json#基本情報",
+            "ex:No.": "09108",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2126.json",
+                    "ex:出版年月日": [
+                        "1928-09-15"
+                    ],
+                    "ex:収録巻次": 54,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大宋僧史略/附、紹興朝旨改正僧道班文字一集",
+                    "ex:経典番号": "T2126",
+                    "ex:部門": "事彙部下/外教部全",
+                    "ex:配本": [
+                        53
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09108.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09108.json#テキスト1（脚注）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1905",
+                    "ex:時代": "明治・大正",
+                    "ex:標準名称": "大日本續藏經",
+                    "ex:～年": "1912"
+                }
+            ],
+            "ex:テキスト": "〔大日本續藏經〕",
+            "ex:底本/校本": "底本",
+            "ex:底本推定": "勘同目録により推定",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

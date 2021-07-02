@@ -1,0 +1,96 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04414.json",
+    "ex:sat": [
+        {
+            "@id": "data:04414.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0895_.18.0735b06.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04414.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04414.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1078",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "仁和寺藏本"
+                }
+            ],
+            "ex:❹": "仁和寺本",
+            "ex:❼": "承暦二年寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04414.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04414.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0899",
+            "ex:toページ": 315,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=162",
+            "ex:ページ": "314",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04414.json#基本情報",
+            "ex:No.": "04414",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0895.json",
+                    "ex:出版年月日": [
+                        "1928-04-15"
+                    ],
+                    "ex:収録巻次": 18,
+                    "ex:枝番": 2,
+                    "ex:経典名": "蘇婆呼童子請經（別本）",
+                    "ex:経典番号": "T0895",
+                    "ex:部門": "密教部1",
+                    "ex:配本": [
+                        48
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04414.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04414.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1078",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "仁和寺藏本"
+                }
+            ],
+            "ex:テキスト": "承暦二年寫仁和寺藏本",
+            "ex:備考": "p.735〈9〉此本與麗本異同甚繁故別載",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04414.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

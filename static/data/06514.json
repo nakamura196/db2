@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06514.json",
+    "ex:sat": [
+        {
+            "@id": "data:06514.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1446_.23.1044c09.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06514.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:06514.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "校刻",
+                    "ex:刊写者": "忍澂",
+                    "ex:国": "日本",
+                    "ex:年": "1706",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "忍澂校刻本",
+                    "ex:～年": "1710"
+                }
+            ],
+            "ex:❹": "忍澂校刻本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06514.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1477",
+            "ex:toページ": 396,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=244",
+            "ex:ページ": "396",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06514.json#基本情報",
+            "ex:No.": "06514",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1446.json",
+                    "ex:出版年月日": [
+                        "1925-10-15"
+                    ],
+                    "ex:収録巻次": 23,
+                    "ex:枝番": 1,
+                    "ex:経典名": "根本説一切有部毘奈耶隨意事",
+                    "ex:経典番号": "T1446",
+                    "ex:部門": "律部2",
+                    "ex:配本": [
+                        18
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06514.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:06514.json#テキスト1（脚注）",
+                    "ex:刊写形態": "校刻",
+                    "ex:刊写者": "忍澂",
+                    "ex:国": "日本",
+                    "ex:年": "1706",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "忍澂校刻本",
+                    "ex:～年": "1710"
+                }
+            ],
+            "ex:備考": "p.1046〈1〉忍澂師校刻本曰有時當作時有ほか",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04477.json",
+    "ex:sat": [
+        {
+            "@id": "data:04477.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0914_.18.0936b25.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04477.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04477.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1162",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "東寺三密藏藏本"
+                }
+            ],
+            "ex:❹": "東寺三密藏本",
+            "ex:❼": "應保二年寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04477.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東寺三密藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04477.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0918",
+            "ex:toページ": 319,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=167",
+            "ex:ページ": "319",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04477.json#基本情報",
+            "ex:No.": "04477",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0914.json",
+                    "ex:出版年月日": [
+                        "1928-04-15"
+                    ],
+                    "ex:収録巻次": 18,
+                    "ex:枝番": 1,
+                    "ex:経典名": "火吽軌別録",
+                    "ex:経典番号": "T0914",
+                    "ex:部門": "密教部1",
+                    "ex:配本": [
+                        48
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04477.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04477.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1162",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "東寺三密藏藏本"
+                }
+            ],
+            "ex:テキスト": "應保二年寫東寺三密藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04477.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東寺三密藏"
+                }
+            ],
+            "ex:新添": "〈乙〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

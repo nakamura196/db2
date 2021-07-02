@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08639.json",
+    "ex:sat": [
+        {
+            "@id": "data:08639.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1985_.47.0495a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08639.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08639.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1491",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "德富猪一郎藏本"
+                }
+            ],
+            "ex:❹": "德富本",
+            "ex:❼": "德富猪一郎藏本延德三年刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08639.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "德富猪一郎"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08639.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2019",
+            "ex:toページ": 512,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=360",
+            "ex:ページ": "512",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08639.json#基本情報",
+            "ex:No.": "08639",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1985.json",
+                    "ex:出版年月日": [
+                        "1928-02-15"
+                    ],
+                    "ex:収録巻次": 47,
+                    "ex:枝番": 1,
+                    "ex:経典名": "鎭州臨濟慧照禪師語録",
+                    "ex:経典番号": "T1985",
+                    "ex:部門": "諸宗部4",
+                    "ex:配本": [
+                        46
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08639.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08639.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1491",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "德富猪一郎藏本"
+                }
+            ],
+            "ex:テキスト": "延德三年版德富猪一郎氏藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08639.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "德富猪一郎"
+                }
+            ],
+            "ex:新添": "〈乙〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

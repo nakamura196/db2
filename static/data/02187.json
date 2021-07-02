@@ -1,0 +1,85 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:02187.json",
+    "ex:sat": [
+        {
+            "@id": "data:02187.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0450_.14.0404c11.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:02187.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:02187.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1881",
+                    "ex:時代": "明治",
+                    "ex:標準名称": "縮刷藏經本",
+                    "ex:～年": "1885"
+                }
+            ],
+            "ex:❹": "縮刷本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:02187.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0451",
+            "ex:toページ": 260,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=108",
+            "ex:ページ": "260",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:02187.json#基本情報",
+            "ex:No.": "02187",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0450.json",
+                    "ex:出版年月日": [
+                        "1925-01-20"
+                    ],
+                    "ex:収録巻次": 14,
+                    "ex:枝番": 1,
+                    "ex:経典名": "藥師琉璃光如來本願功德經",
+                    "ex:経典番号": "T0450",
+                    "ex:部門": "経集部1",
+                    "ex:配本": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:02187.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:02187.json#テキスト1（脚注）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1881",
+                    "ex:時代": "明治",
+                    "ex:標準名称": "縮刷藏經本",
+                    "ex:～年": "1885"
+                }
+            ],
+            "ex:テキスト": "〈縮〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈縮〉縮刷本　Tokyo edition (small typed)"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

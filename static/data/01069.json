@@ -1,0 +1,68 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01069.json",
+    "ex:sat": [
+        {
+            "@id": "data:01069.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0243_.08.0784a08.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01069.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01069.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "西域",
+                    "ex:標準名称": "梵本"
+                }
+            ],
+            "ex:❹": "梵本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01069.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0244",
+            "ex:toページ": 216,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=63",
+            "ex:ページ": "215",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01069.json#基本情報",
+            "ex:No.": "01069",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0243.json",
+                    "ex:出版年月日": [
+                        "1924-08-15"
+                    ],
+                    "ex:収録巻次": 8,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大樂金剛不空眞實三麼耶經",
+                    "ex:経典番号": "T0243",
+                    "ex:部門": "般若部4",
+                    "ex:配本": [
+                        4
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01069.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

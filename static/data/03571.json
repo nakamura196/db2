@@ -1,0 +1,90 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03571.json",
+    "ex:sat": [
+        {
+            "@id": "data:03571.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0721_.17.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03571.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:03571.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "18",
+                    "ex:年": "743",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "大德寺藏本",
+                    "ex:関与形態": "發願",
+                    "ex:関与者": "藤原三女"
+                },
+                {
+                    "@id": "data:03571.json#テキスト2（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "31",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "大德寺藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "大德寺本",
+            "ex:❼": "大德寺本、卷第一八、天平十五年寫藤原三女發願卷第三一、平安時代初期寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:03571.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "大德寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03571.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0722",
+            "ex:toページ": 292,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=140",
+            "ex:ページ": "292",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03571.json#基本情報",
+            "ex:No.": "03571",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0721.json",
+                    "ex:出版年月日": [
+                        "1925-09-15"
+                    ],
+                    "ex:収録巻次": 17,
+                    "ex:枝番": 1,
+                    "ex:経典名": "正法念處經",
+                    "ex:経典番号": "T0721",
+                    "ex:部門": "経集部4",
+                    "ex:配本": [
+                        17
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03571.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

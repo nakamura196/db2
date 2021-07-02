@@ -1,0 +1,83 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03907.json",
+    "ex:sat": [
+        {
+            "@id": "data:03907.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0790_.17.0729a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03907.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:03907.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1151",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "麗本"
+                }
+            ],
+            "ex:❹": "麗本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03907.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0791",
+            "ex:toページ": 298,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=146",
+            "ex:ページ": "298",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03907.json#基本情報",
+            "ex:No.": "03907",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0790.json",
+                    "ex:出版年月日": [
+                        "1925-09-15"
+                    ],
+                    "ex:収録巻次": 17,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説孛經抄",
+                    "ex:経典番号": "T0790",
+                    "ex:部門": "経集部4",
+                    "ex:配本": [
+                        17
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03907.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:03907.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1151",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "麗本"
+                }
+            ],
+            "ex:テキスト": "〔麗本〕",
+            "ex:底本/校本": "底本",
+            "ex:底本推定": "勘同目録により推定",
+            "ex:所蔵者": [],
+            "ex:略号解説": "〈麗〉麗本（The ‘Kao-Li Edition’ A. D. 1151）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

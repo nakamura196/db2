@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08473.json",
+    "ex:sat": [
+        {
+            "@id": "data:08473.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1911_.46.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08473.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08473.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "島地大等藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:❹": "島地本",
+            "ex:❼": "島地大等氏藏本、德川時代刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08473.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "島地大等"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08473.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1944",
+            "ex:toページ": 492,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=339",
+            "ex:ページ": "491",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08473.json#基本情報",
+            "ex:No.": "08473",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1911.json",
+                    "ex:出版年月日": [
+                        "1927-12-15"
+                    ],
+                    "ex:収録巻次": 46,
+                    "ex:枝番": 1,
+                    "ex:経典名": "摩訶止觀",
+                    "ex:経典番号": "T1911",
+                    "ex:部門": "諸宗部3",
+                    "ex:配本": [
+                        44
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08473.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08473.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "島地大等藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:テキスト": "德川時代刊島地大等氏藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08473.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "島地大等"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

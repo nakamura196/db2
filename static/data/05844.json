@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:05844.json",
+    "ex:sat": [
+        {
+            "@id": "data:05844.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1270_.21.0303b23.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:05844.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:05844.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1301",
+            "ex:toページ": 369,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=217",
+            "ex:ページ": "369",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:05844.json#基本情報",
+            "ex:No.": "05844",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1270.json",
+                    "ex:出版年月日": [
+                        "1928-08-15"
+                    ],
+                    "ex:収録巻次": 21,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+                    "ex:経典番号": "T1270",
+                    "ex:部門": "密教部4",
+                    "ex:配本": [
+                        52
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:05844.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

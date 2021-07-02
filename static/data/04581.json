@@ -1,0 +1,81 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04581.json",
+    "ex:sat": [
+        {
+            "@id": "data:04581.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0944B_.19.0102c23.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04581.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04581.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "靈雲寺版普通眞言藏"
+                }
+            ],
+            "ex:❹": "靈雲寺版普通眞言藏",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04581.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0951",
+            "ex:toページ": 322,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=170",
+            "ex:ページ": "322",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04581.json#基本情報",
+            "ex:No.": "04581",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0944B.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 2,
+                    "ex:経典名": "大佛頂大陀羅尼",
+                    "ex:経典番号": "T0944B",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04581.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04581.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "靈雲寺",
+                    "ex:国": "日本",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "靈雲寺版普通眞言藏"
+                }
+            ],
+            "ex:テキスト": "靈雲寺版普通眞言藏",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,77 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07508.json",
+    "ex:sat": [
+        {
+            "@id": "data:07508.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1630_.32.0011a21.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07508.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07508.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "725",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "久原文庫藏本"
+                }
+            ],
+            "ex:❹": "久原本",
+            "ex:❼": "久原文庫藏本神龜二年寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07508.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "久原文庫"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07508.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1661",
+            "ex:toページ": 438,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=285",
+            "ex:ページ": "437",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07508.json#基本情報",
+            "ex:No.": "07508",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1630.json",
+                    "ex:出版年月日": [
+                        "1925-11-15"
+                    ],
+                    "ex:収録巻次": 32,
+                    "ex:枝番": 1,
+                    "ex:経典名": "因明入正理論",
+                    "ex:経典番号": "T1630",
+                    "ex:部門": "論集部全",
+                    "ex:配本": [
+                        19
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07508.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

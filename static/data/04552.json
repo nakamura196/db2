@@ -1,0 +1,91 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04552.json",
+    "ex:sat": [
+        {
+            "@id": "data:04552.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0936_.19.0082a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04552.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04552.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:標準名称": "大英博物館藏敦煌別本"
+                }
+            ],
+            "ex:❹": "燉煌別本",
+            "ex:❼": "大英博物館藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04552.json#所蔵者1（勘同目録）",
+                    "ex:国": "英国",
+                    "ex:所蔵者": "大英博物館"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04552.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0942",
+            "ex:toページ": 322,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=169",
+            "ex:ページ": "321",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04552.json#基本情報",
+            "ex:No.": "04552",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0936.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘無量壽經",
+                    "ex:経典番号": "T0936",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04552.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04552.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:標準名称": "大英博物館藏敦煌本"
+                }
+            ],
+            "ex:テキスト": "大英博物館蔵古寫本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04552.json#所蔵者1（脚注）",
+                    "ex:国": "英国",
+                    "ex:所蔵者": "大英博物館"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

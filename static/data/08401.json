@@ -1,0 +1,90 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08401.json",
+    "ex:sat": [
+        {
+            "@id": "data:08401.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1879_.45.0656a13.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08401.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08401.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:標準名称": "佛蘭西國民圖書館藏敦煌本"
+                }
+            ],
+            "ex:❹": "燉煌本",
+            "ex:❼": "佛蘭西國民圖書館藏",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08401.json#所蔵者1（勘同目録）",
+                    "ex:国": "仏蘭西",
+                    "ex:所蔵者": "佛蘭西國民圖書館"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08401.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1911",
+            "ex:toページ": 487,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=335",
+            "ex:ページ": "487",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08401.json#基本情報",
+            "ex:No.": "08401",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1879.json",
+                    "ex:出版年月日": [
+                        "1927-09-15"
+                    ],
+                    "ex:収録巻次": 45,
+                    "ex:枝番": 1,
+                    "ex:経典名": "華嚴經關脈義記",
+                    "ex:経典番号": "T1879",
+                    "ex:部門": "諸宗部2",
+                    "ex:配本": [
+                        41
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08401.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08401.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:標準名称": "佛蘭西國民圖書館藏敦煌本"
+                }
+            ],
+            "ex:テキスト": "燉煌本佛蘭西國民圖書館藏",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08401.json#所蔵者1（脚注）",
+                    "ex:国": "仏蘭西",
+                    "ex:所蔵者": "佛蘭西國民圖書館"
+                }
+            ]
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

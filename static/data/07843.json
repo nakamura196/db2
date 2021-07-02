@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07843.json",
+    "ex:sat": [
+        {
+            "@id": "data:07843.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1715_.33.0572a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07843.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07843.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1230",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "東大寺藏別本"
+                }
+            ],
+            "ex:❹": "東大寺別本",
+            "ex:❼": "寛喜二年寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07843.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07843.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1747",
+            "ex:toページ": 453,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=300",
+            "ex:ページ": "452",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07843.json#基本情報",
+            "ex:No.": "07843",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1715.json",
+                    "ex:出版年月日": [
+                        "1926-08-15"
+                    ],
+                    "ex:収録巻次": 33,
+                    "ex:枝番": 1,
+                    "ex:経典名": "法華經義記",
+                    "ex:経典番号": "T1715",
+                    "ex:部門": "経疏部1",
+                    "ex:配本": [
+                        28
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07843.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07843.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1230",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:テキスト": "寛喜二年寫東大寺藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07843.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ],
+            "ex:新添": "〈乙〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

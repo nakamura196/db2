@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01774.json",
+    "ex:sat": [
+        {
+            "@id": "data:01774.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0375_.12.0605a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01774.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01774.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:刊写者": "賢憬",
+                    "ex:国": "日本",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "唐招提寺藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "唐招提寺本",
+            "ex:❼": "奈良時代賢憬寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01774.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "唐招提寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01774.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0376",
+            "ex:toページ": 248,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=96",
+            "ex:ページ": "248",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01774.json#基本情報",
+            "ex:No.": "01774",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0375.json",
+                    "ex:出版年月日": [
+                        "1925-06-15"
+                    ],
+                    "ex:収録巻次": 12,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大般涅槃經",
+                    "ex:経典番号": "T0375",
+                    "ex:部門": "宝積部下/涅槃部全",
+                    "ex:配本": [
+                        14
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01774.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

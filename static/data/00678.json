@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00678.json",
+    "ex:sat": [
+        {
+            "@id": "data:00678.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0161_.03.0386a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00678.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:00678.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "768",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "聖本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "孝謙天皇"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏景雲經第一三號・神護景雲二年寫孝謙天皇御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:00678.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00678.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0162",
+            "ex:toページ": 191,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=39",
+            "ex:ページ": "191",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00678.json#基本情報",
+            "ex:No.": "00678",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0161.json",
+                    "ex:出版年月日": [
+                        "1924-06-20"
+                    ],
+                    "ex:収録巻次": 3,
+                    "ex:枝番": 1,
+                    "ex:経典名": "長壽王經",
+                    "ex:経典番号": "T0161",
+                    "ex:部門": "本縁部上",
+                    "ex:配本": [
+                        2
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00678.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

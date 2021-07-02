@@ -1,0 +1,99 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01298.json",
+    "ex:sat": [
+        {
+            "@id": "data:01298.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0286_.10.0497c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01298.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01298.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "4",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "森田淸太郎藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "森田本",
+            "ex:❼": "森田淸太郎藏本・卷第四、奈良時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01298.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "森田淸太郎"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01298.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0287",
+            "ex:toページ": 230,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=77",
+            "ex:ページ": "229",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01298.json#基本情報",
+            "ex:No.": "01298",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0286.json",
+                    "ex:出版年月日": [
+                        "1925-08-15"
+                    ],
+                    "ex:収録巻次": 10,
+                    "ex:枝番": 1,
+                    "ex:経典名": "十住經",
+                    "ex:経典番号": "T0286",
+                    "ex:部門": "華厳部下",
+                    "ex:配本": [
+                        16
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01298.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:01298.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "729",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "森田淸太郎藏本",
+                    "ex:～年": "749"
+                }
+            ],
+            "ex:テキスト": "〈森〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01298.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "森田淸太郎"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈森〉森田淸太郎氏藏本（The Tempyō Mss. owned by Mr. Seitaro Morita）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,113 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08487.json",
+    "ex:sat": [
+        {
+            "@id": "data:08487.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1918_.46.0555c10.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08487.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08487.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1591",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:❹": "增上寺報恩藏本",
+            "ex:❼": "萬暦十九年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08487.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08487.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1951",
+            "ex:toページ": 493,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=340",
+            "ex:ページ": "492",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08487.json#基本情報",
+            "ex:No.": "08487",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1918.json",
+                    "ex:出版年月日": [
+                        "1927-12-15"
+                    ],
+                    "ex:収録巻次": 46,
+                    "ex:枝番": 1,
+                    "ex:経典名": "四念處",
+                    "ex:経典番号": "T1918",
+                    "ex:部門": "諸宗部3",
+                    "ex:配本": [
+                        44
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08487.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08487.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1591",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:テキスト": "萬暦十九年刊增上寺報恩藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08487.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:08487.json#酉目1",
+            "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1573",
+            "ex:枝番": 1,
+            "ex:經典番號": "U1558",
+            "ex:通番": "1573"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08487.json#酉蓮社本IIIFコレクション1",
+            "ex:from": 28,
+            "ex:to": 121,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/f074aada538ba90ff3642659ce5ffd98/manifest.json",
+            "ex:画像フォルダ": "u-renja1572-1573",
+            "ex:経典名": "四念處4卷"
+        }
+    ]
+}

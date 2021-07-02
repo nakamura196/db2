@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03693.json",
+    "ex:sat": [
+        {
+            "@id": "data:03693.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0747_.17.0562b08.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03693.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03693.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0748",
+            "ex:toページ": 295,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=143",
+            "ex:ページ": "295",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03693.json#基本情報",
+            "ex:No.": "03693",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0747.json",
+                    "ex:出版年月日": [
+                        "1925-09-15"
+                    ],
+                    "ex:収録巻次": 17,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説罪福報應經",
+                    "ex:経典番号": "T0747",
+                    "ex:部門": "経集部4",
+                    "ex:配本": [
+                        17
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03693.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.562〈9〉此經三本大異，今以宋本元本對校明本別附卷末cf.p.563",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

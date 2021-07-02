@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01255.json",
+    "ex:sat": [
+        {
+            "@id": "data:01255.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0279_.10.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01255.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01255.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:巻": "80",
+                    "ex:年": "618",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "東大寺藏本",
+                    "ex:～年": "907"
+                }
+            ],
+            "ex:❹": "東大寺本",
+            "ex:❼": "東大寺本、卷第八十、唐時代寫、紺紙銀泥",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01255.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01255.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0280",
+            "ex:toページ": 229,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=76",
+            "ex:ページ": "228",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01255.json#基本情報",
+            "ex:No.": "01255",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0279.json",
+                    "ex:出版年月日": [
+                        "1925-08-15"
+                    ],
+                    "ex:収録巻次": 10,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大方廣佛華嚴經八十卷（唐實叉難陀譯）",
+                    "ex:経典番号": "T0279",
+                    "ex:部門": "華厳部下",
+                    "ex:配本": [
+                        16
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01255.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

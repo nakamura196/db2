@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04230.json",
+    "ex:sat": [
+        {
+            "@id": "data:04230.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0855_.18.0172b09.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04230.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04230.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0856",
+            "ex:toページ": 307,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=155",
+            "ex:ページ": "307",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04230.json#基本情報",
+            "ex:No.": "04230",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0855.json",
+                    "ex:出版年月日": [
+                        "1928-04-15"
+                    ],
+                    "ex:収録巻次": 18,
+                    "ex:枝番": 1,
+                    "ex:経典名": "青龍寺軌記",
+                    "ex:経典番号": "T0855",
+                    "ex:部門": "密教部1",
+                    "ex:配本": [
+                        48
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04230.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

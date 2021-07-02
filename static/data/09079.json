@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09079.json",
+    "ex:sat": [
+        {
+            "@id": "data:09079.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2119_.52.0818a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09079.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09079.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "618",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "小泉策太郎藏本",
+                    "ex:～年": "907"
+                }
+            ],
+            "ex:❹": "小泉本",
+            "ex:❼": "小泉策太郎藏唐時代寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:09079.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "小泉策太郎"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09079.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2160",
+            "ex:toページ": 611,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=459",
+            "ex:ページ": "611",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09079.json#基本情報",
+            "ex:No.": "09079",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2119.json",
+                    "ex:出版年月日": [
+                        "1927-05-15"
+                    ],
+                    "ex:収録巻次": 52,
+                    "ex:枝番": 1,
+                    "ex:経典名": "寺沙門玄奘上表記",
+                    "ex:経典番号": "T2119",
+                    "ex:部門": "史伝部4",
+                    "ex:配本": [
+                        37
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09079.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09079.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "618",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "小泉策太郎藏本",
+                    "ex:～年": "907"
+                }
+            ],
+            "ex:テキスト": "唐時代寫小泉策太郎氏藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:09079.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "小泉策太郎"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

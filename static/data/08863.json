@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08863.json",
+    "ex:sat": [
+        {
+            "@id": "data:08863.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2053_.50.0220c04.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08863.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08863.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1210",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "松本文三郎藏本"
+                }
+            ],
+            "ex:❹": "松本本",
+            "ex:❼": "松本文三郎藏本、承元四年寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08863.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "松本文三郎"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08863.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2094",
+            "ex:toページ": 538,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=386",
+            "ex:ページ": "538",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08863.json#基本情報",
+            "ex:No.": "08863",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2053.json",
+                    "ex:出版年月日": [
+                        "1927-01-15"
+                    ],
+                    "ex:収録巻次": 50,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大唐大慈恩寺三藏法師傳",
+                    "ex:経典番号": "T2053",
+                    "ex:部門": "史伝部2",
+                    "ex:配本": [
+                        33
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08863.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08863.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1210",
+                    "ex:時代": "鎌倉",
+                    "ex:標準名称": "松本文三郎藏本"
+                }
+            ],
+            "ex:テキスト": "承元四年寫松本文三郎氏藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08863.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "松本文三郎"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

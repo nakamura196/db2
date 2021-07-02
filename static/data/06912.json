@@ -1,0 +1,92 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06912.json",
+    "ex:sat": [
+        {
+            "@id": "data:06912.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1520_.26.0010c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06912.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:06912.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1601",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本"
+                }
+            ],
+            "ex:❹": "明本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06912.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1551",
+            "ex:toページ": 409,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=257",
+            "ex:ページ": "409",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06912.json#基本情報",
+            "ex:No.": "06912",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1520.json",
+                    "ex:出版年月日": [
+                        "1926-03-15"
+                    ],
+                    "ex:収録巻次": 26,
+                    "ex:枝番": 1,
+                    "ex:経典名": "妙法蓮華經論優波提舍",
+                    "ex:経典番号": "T1520",
+                    "ex:部門": "釈経論部下/毘曇部1",
+                    "ex:配本": [
+                        23
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06912.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:06912.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1601",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本"
+                }
+            ],
+            "ex:テキスト": "〈明〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈明〉明本（The ‘Ming Edition’ A. D. 1601）"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:06912.json#酉目1",
+            "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1239",
+            "ex:枝番": 1,
+            "ex:經典番號": "U1227",
+            "ex:通番": "1239"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": []
+}

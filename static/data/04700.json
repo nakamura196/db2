@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04700.json",
+    "ex:sat": [
+        {
+            "@id": "data:04700.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0974C_.19.0386a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04700.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04700.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0984",
+            "ex:toページ": 329,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=177",
+            "ex:ページ": "329",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04700.json#基本情報",
+            "ex:No.": "04700",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0974C.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 3,
+                    "ex:経典名": "加句靈驗佛頂尊勝陀羅尼記",
+                    "ex:経典番号": "T0974C",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04700.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01333.json",
+    "ex:sat": [
+        {
+            "@id": "data:01333.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0293_.10.0661a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01333.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01333.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "805",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "仁和寺本",
+            "ex:❼": "仁和寺本、三十帖策子本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01333.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01333.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0294",
+            "ex:toページ": 231,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=79",
+            "ex:ページ": "231",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01333.json#基本情報",
+            "ex:No.": "01333",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0293.json",
+                    "ex:出版年月日": [
+                        "1925-08-15"
+                    ],
+                    "ex:収録巻次": 10,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大方廣佛華嚴經",
+                    "ex:経典番号": "T0293",
+                    "ex:部門": "華厳部下",
+                    "ex:配本": [
+                        16
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01333.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:01333.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "C. 800",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏空海等寫本"
+                }
+            ],
+            "ex:テキスト": "〈和〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01333.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈和〉仁和寺藏本（Ninnaji Mss. by Kūkai and others. C. 800. A. D.）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

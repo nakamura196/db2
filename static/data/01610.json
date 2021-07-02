@@ -1,0 +1,80 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01610.json",
+    "ex:sat": [
+        {
+            "@id": "data:01610.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0345_.12.0156a12.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01610.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01610.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "767",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "聖本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "孝謙天皇",
+                    "ex:～年": "770"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏景雲經一〇七號・神護景雲年寫　孝謙天皇御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01610.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01610.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0346",
+            "ex:toページ": 241,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=89",
+            "ex:ページ": "241",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01610.json#基本情報",
+            "ex:No.": "01610",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0345.json",
+                    "ex:出版年月日": [
+                        "1925-06-15"
+                    ],
+                    "ex:収録巻次": 12,
+                    "ex:枝番": 1,
+                    "ex:経典名": "慧上菩薩問大善權經",
+                    "ex:経典番号": "T0345",
+                    "ex:部門": "宝積部下/涅槃部全",
+                    "ex:配本": [
+                        14
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01610.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

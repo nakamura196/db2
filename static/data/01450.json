@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01450.json",
+    "ex:sat": [
+        {
+            "@id": "data:01450.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0315_.11.0770c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01450.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01450.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0316",
+            "ex:toページ": 237,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=85",
+            "ex:ページ": "237",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01450.json#基本情報",
+            "ex:No.": "01450",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0315.json",
+                    "ex:出版年月日": [
+                        "1925-04-15"
+                    ],
+                    "ex:収録巻次": 11,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説普門品經",
+                    "ex:経典番号": "T0315",
+                    "ex:部門": "宝積部上",
+                    "ex:配本": [
+                        12
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01450.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.770〈7〉此經與宋元明三本大異對校甚難故今以宋元二本對校明本別附卷末",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

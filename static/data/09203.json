@@ -1,0 +1,94 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09203.json",
+    "ex:sat": [
+        {
+            "@id": "data:09203.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2157_.55.0771a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09203.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09203.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "1-20",
+                    "ex:年": "806",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "聖本",
+                    "ex:～年": "1185"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏雜寫經第一二六號・卷第一―第二十計二十卷、平安時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:09203.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09203.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2200",
+            "ex:toページ": 653,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=501",
+            "ex:ページ": "653",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09203.json#基本情報",
+            "ex:No.": "09203",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2157.json",
+                    "ex:出版年月日": [
+                        "1928-11-15"
+                    ],
+                    "ex:収録巻次": 55,
+                    "ex:枝番": 1,
+                    "ex:経典名": "貞元新定釋教目録",
+                    "ex:経典番号": "T2157",
+                    "ex:部門": "目録部全",
+                    "ex:配本": [
+                        55
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09203.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09203.json#テキスト1（脚注）",
+                    "ex:巻": "1-19",
+                    "ex:標準名称": "聖本"
+                }
+            ],
+            "ex:テキスト": "〈聖〉聖護藏本（自第一卷至第十九卷）",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:09203.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

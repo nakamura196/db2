@@ -1,0 +1,89 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07900.json",
+    "ex:sat": [
+        {
+            "@id": "data:07900.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1739_.36.0721a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07900.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07900.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1151",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "麗本"
+                }
+            ],
+            "ex:❹": "麗本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07900.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1771",
+            "ex:toページ": 458,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=306",
+            "ex:ページ": "458",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07900.json#基本情報",
+            "ex:No.": "07900",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1739.json",
+                    "ex:出版年月日": [
+                        "1927-03-15"
+                    ],
+                    "ex:収録巻次": 36,
+                    "ex:枝番": 1,
+                    "ex:経典名": "新華嚴經論",
+                    "ex:経典番号": "T1739",
+                    "ex:部門": "経疏部4",
+                    "ex:配本": [
+                        35
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07900.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07900.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "朝鮮",
+                    "ex:年": "1236",
+                    "ex:時代": "高麗",
+                    "ex:標準名称": "增上寺藏本",
+                    "ex:～年": "1251"
+                }
+            ],
+            "ex:テキスト": "增上寺藏麗本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07900.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

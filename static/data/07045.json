@@ -1,0 +1,104 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07045.json",
+    "ex:sat": [
+        {
+            "@id": "data:07045.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1545_.27.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07045.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07045.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:巻": "70,178",
+                    "ex:年": "655",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "聖本"
+                },
+                {
+                    "@id": "data:07045.json#テキスト2（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:巻": "7,136",
+                    "ex:年": "618",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "聖本",
+                    "ex:～年": "907"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏唐經第二號・卷第七十、第百七十八、計二卷、唐永徽六年寫　唐經第一一號・卷第七、第百三十六、計二卷、唐時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07045.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07045.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1576",
+            "ex:toページ": 415,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=263",
+            "ex:ページ": "415",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07045.json#基本情報",
+            "ex:No.": "07045",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1545.json",
+                    "ex:出版年月日": [
+                        "1926-07-15"
+                    ],
+                    "ex:収録巻次": 27,
+                    "ex:枝番": 1,
+                    "ex:経典名": "阿毘達磨大毘婆沙論",
+                    "ex:経典番号": "T1545",
+                    "ex:部門": "毘曇部2",
+                    "ex:配本": [
+                        27
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07045.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07045.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:標準名称": "聖本"
+                }
+            ],
+            "ex:テキスト": "〈聖〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07045.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖〉正倉院聖語藏本（天平寫經）（The Tempyō Mss.〔A. D. 729-〕and the Chinese Mss. of the Sui〔A. D. 581-617〕 and Tang〔A. D. 618-822〕dynasties, belonging to the Imperial Treasure House Shōsō-in at Nara, specially called Shōgo-zō）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

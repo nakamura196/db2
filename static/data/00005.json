@@ -1,0 +1,96 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00005.json",
+    "ex:sat": [
+        {
+            "@id": "data:00005.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0001_.01.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00005.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:00005.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "1-10,15",
+                    "ex:年": "740",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "聖本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "光明皇后"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏經五九號・卷第一第二第三第四第五第六第七第八第九第十第十五計十一卷、天平十二年五月寫光明皇后御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:00005.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00005.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0001",
+            "ex:toページ": 153,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=1",
+            "ex:ページ": "153",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00005.json#基本情報",
+            "ex:No.": "00005",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0001.json",
+                    "ex:出版年月日": [
+                        "1924-04-08"
+                    ],
+                    "ex:収録巻次": 1,
+                    "ex:枝番": 1,
+                    "ex:経典名": "長阿含經",
+                    "ex:経典番号": "T0001",
+                    "ex:部門": "阿含部上",
+                    "ex:配本": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00005.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:00005.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:標準名称": "聖本"
+                }
+            ],
+            "ex:テキスト": "〈聖〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:00005.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖〉正倉院聖語藏本（天平寫經）（The Tempyō Mss.〔A. D. 729-〕and the Chinese Mss. of the Sui〔A. D. 581-617〕 and Tang〔A. D. 618-822〕dynasties, belonging to the Imperial Treasure House Shōsō-in at Nara, specially called Shōgo-zō）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

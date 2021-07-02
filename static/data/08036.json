@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08036.json",
+    "ex:sat": [
+        {
+            "@id": "data:08036.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1799_.39.0823a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08036.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08036.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "高師直",
+                    "ex:国": "日本",
+                    "ex:年": "1339",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "宮本"
+                }
+            ],
+            "ex:❹": "宮本",
+            "ex:❼": "暦應二年高師直刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08036.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08036.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1831",
+            "ex:toページ": 467,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08036.json#基本情報",
+            "ex:No.": "08036",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1799.json",
+                    "ex:出版年月日": [
+                        "1927-02-15"
+                    ],
+                    "ex:収録巻次": 39,
+                    "ex:枝番": 1,
+                    "ex:経典名": "首楞嚴義疏注經",
+                    "ex:経典番号": "T1799",
+                    "ex:部門": "経疏部7",
+                    "ex:配本": [
+                        34
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08036.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08036.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "高師直",
+                    "ex:国": "日本",
+                    "ex:年": "1339",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "宮本"
+                }
+            ],
+            "ex:テキスト": "〈宮〉暦應二年高師直刊宮内省圖書寮藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08036.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
+                }
+            ],
+            "ex:略号の使用": "専号使用"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

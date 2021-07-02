@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08970.json",
+    "ex:sat": [
+        {
+            "@id": "data:08970.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2089_.51.0981b27.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08970.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08970.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2130",
+            "ex:toページ": 598,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=446",
+            "ex:ページ": "598",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08970.json#基本情報",
+            "ex:No.": "08970",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2089.json",
+                    "ex:出版年月日": [
+                        "1928-03-15"
+                    ],
+                    "ex:収録巻次": 51,
+                    "ex:枝番": 3,
+                    "ex:経典名": "遊方記抄　繼業西域行程",
+                    "ex:経典番号": "T2089",
+                    "ex:部門": "史伝部3",
+                    "ex:配本": [
+                        47
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08970.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

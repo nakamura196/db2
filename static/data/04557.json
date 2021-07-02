@@ -1,0 +1,68 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04557.json",
+    "ex:sat": [
+        {
+            "@id": "data:04557.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0937_.19.0085a04.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04557.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04557.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "西域",
+                    "ex:標準名称": "梵本"
+                }
+            ],
+            "ex:❹": "梵本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04557.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0943",
+            "ex:toページ": 322,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=170",
+            "ex:ページ": "322",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04557.json#基本情報",
+            "ex:No.": "04557",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0937.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説大乘聖無量壽決定光明王如來陀羅尼經",
+                    "ex:経典番号": "T0937",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04557.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

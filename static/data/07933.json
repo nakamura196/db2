@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07933.json",
+    "ex:sat": [
+        {
+            "@id": "data:07933.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1753_.37.0245c05.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07933.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07933.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1647",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本"
+                }
+            ],
+            "ex:❹": "宗教大學本",
+            "ex:❼": "正安四年刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07933.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07933.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1785",
+            "ex:toページ": 460,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=307",
+            "ex:ページ": "459",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07933.json#基本情報",
+            "ex:No.": "07933",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1753.json",
+                    "ex:出版年月日": [
+                        "1926-10-15"
+                    ],
+                    "ex:収録巻次": 37,
+                    "ex:枝番": 1,
+                    "ex:経典名": "觀無量壽佛經疏",
+                    "ex:経典番号": "T1753",
+                    "ex:部門": "経疏部5",
+                    "ex:配本": [
+                        30
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07933.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07933.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1647",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "宗教大學藏本"
+                }
+            ],
+            "ex:テキスト": "正安四年知眞刊宗教大學藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07933.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宗教大學"
+                }
+            ],
+            "ex:新添": "〈丙〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

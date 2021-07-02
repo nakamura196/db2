@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:02482.json",
+    "ex:sat": [
+        {
+            "@id": "data:02482.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0507_.14.0774b22.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:02482.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:02482.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1104",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:～年": "1148"
+                }
+            ],
+            "ex:❹": "宮本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:02482.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:02482.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0508",
+            "ex:toページ": 267,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=115",
+            "ex:ページ": "267",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:02482.json#基本情報",
+            "ex:No.": "02482",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0507.json",
+                    "ex:出版年月日": [
+                        "1925-01-20"
+                    ],
+                    "ex:収録巻次": 14,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説未生寃經",
+                    "ex:経典番号": "T0507",
+                    "ex:部門": "経集部1",
+                    "ex:配本": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:02482.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:02482.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1104",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:～年": "1148"
+                }
+            ],
+            "ex:テキスト": "〈宮〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:02482.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

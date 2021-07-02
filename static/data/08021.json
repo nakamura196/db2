@@ -1,0 +1,114 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08021.json",
+    "ex:sat": [
+        {
+            "@id": "data:08021.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1794_.39.0516b08.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08021.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08021.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1664",
+                    "ex:時代": "清",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:❹": "增上寺報恩藏本",
+            "ex:❼": "淸康熙三年刊",
+            "ex:❼備考": "附題焚經臺詩、唐太宗文皇帝製",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08021.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08021.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1826",
+            "ex:toページ": 466,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08021.json#基本情報",
+            "ex:No.": "08021",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1794.json",
+                    "ex:出版年月日": [
+                        "1927-02-15"
+                    ],
+                    "ex:収録巻次": 39,
+                    "ex:枝番": 1,
+                    "ex:経典名": "註四十二章經",
+                    "ex:経典番号": "T1794",
+                    "ex:部門": "経疏部7",
+                    "ex:配本": [
+                        34
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08021.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08021.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1664",
+                    "ex:時代": "清",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:テキスト": "淸康熙三年刊增上寺報恩藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08021.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:08021.json#酉目1",
+            "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=679",
+            "ex:枝番": 1,
+            "ex:經典番號": "U0674",
+            "ex:通番": "679"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08021.json#酉蓮社本IIIFコレクション1",
+            "ex:from": 1,
+            "ex:to": 22,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/cd04078bf078dd93d935be60160a36e0/manifest.json",
+            "ex:画像フォルダ": "u-renja0679",
+            "ex:経典名": "佛説四十二章經1卷"
+        }
+    ]
+}

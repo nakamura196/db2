@@ -1,0 +1,85 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08280.json",
+    "ex:sat": [
+        {
+            "@id": "data:08280.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1828_.42.0311a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08280.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08280.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "金陵",
+                    "ex:国": "中国",
+                    "ex:年": "1922",
+                    "ex:時代": "民国",
+                    "ex:標準名称": "金陵本"
+                }
+            ],
+            "ex:❹": "金陵本",
+            "ex:❼": "中華民國十一年刻",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08280.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1860",
+            "ex:toページ": 474,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=320",
+            "ex:ページ": "472",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08280.json#基本情報",
+            "ex:No.": "08280",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1828.json",
+                    "ex:出版年月日": [
+                        "1927-04-15"
+                    ],
+                    "ex:収録巻次": 42,
+                    "ex:枝番": 1,
+                    "ex:経典名": "瑜伽論記",
+                    "ex:経典番号": "T1828",
+                    "ex:部門": "論疏部3",
+                    "ex:配本": [
+                        36
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08280.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08280.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "金陵",
+                    "ex:国": "中国",
+                    "ex:年": "1922",
+                    "ex:時代": "民国",
+                    "ex:標準名称": "金陵本"
+                }
+            ],
+            "ex:テキスト": "中華民國十一年金陵刻本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

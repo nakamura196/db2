@@ -1,0 +1,88 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07355.json",
+    "ex:sat": [
+        {
+            "@id": "data:07355.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1600_.31.0464b01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07355.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07355.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "中下",
+                    "ex:年": "807",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "石山寺藏本"
+                },
+                {
+                    "@id": "data:07355.json#テキスト2（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "3",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "石山寺藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "石山本",
+            "ex:❼": "石山寺藏本、卷中卷下大同二年寫本、卷第三、奈良時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07355.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "石山寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07355.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1631",
+            "ex:toページ": 432,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=280",
+            "ex:ページ": "432",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07355.json#基本情報",
+            "ex:No.": "07355",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1600.json",
+                    "ex:出版年月日": [
+                        "1925-12-15"
+                    ],
+                    "ex:収録巻次": 31,
+                    "ex:枝番": 1,
+                    "ex:経典名": "辯中邊論",
+                    "ex:経典番号": "T1600",
+                    "ex:部門": "瑜伽部下",
+                    "ex:配本": [
+                        20
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07355.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

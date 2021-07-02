@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07899.json",
+    "ex:sat": [
+        {
+            "@id": "data:07899.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1738_.36.0709c08.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07899.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07899.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1770",
+            "ex:toページ": 458,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=306",
+            "ex:ページ": "458",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07899.json#基本情報",
+            "ex:No.": "07899",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1738.json",
+                    "ex:出版年月日": [
+                        "1927-03-15"
+                    ],
+                    "ex:収録巻次": 36,
+                    "ex:枝番": 1,
+                    "ex:経典名": "新譯華嚴經七處九會頌釋章",
+                    "ex:経典番号": "T1738",
+                    "ex:部門": "経疏部4",
+                    "ex:配本": [
+                        35
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07899.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

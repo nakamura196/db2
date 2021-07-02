@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:02416.json",
+    "ex:sat": [
+        {
+            "@id": "data:02416.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0493_.14.0756c13.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:02416.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:02416.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "768",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "東大寺藏本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "孝謙天皇"
+                }
+            ],
+            "ex:❹": "東大寺本",
+            "ex:❼": "東大寺藏本神護景雲二年寫孝謙天皇御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:02416.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:02416.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0494",
+            "ex:toページ": 266,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=114",
+            "ex:ページ": "266",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:02416.json#基本情報",
+            "ex:No.": "02416",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0493.json",
+                    "ex:出版年月日": [
+                        "1925-01-20"
+                    ],
+                    "ex:収録巻次": 14,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説阿難四事經",
+                    "ex:経典番号": "T0493",
+                    "ex:部門": "経集部1",
+                    "ex:配本": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:02416.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

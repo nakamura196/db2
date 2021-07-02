@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00880.json",
+    "ex:sat": [
+        {
+            "@id": "data:00880.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0207_.04.0522b13.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00880.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00880.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0208",
+            "ex:toページ": 201,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=49",
+            "ex:ページ": "201",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00880.json#基本情報",
+            "ex:No.": "00880",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0207.json",
+                    "ex:出版年月日": [
+                        "1924-07-15"
+                    ],
+                    "ex:収録巻次": 4,
+                    "ex:枝番": 1,
+                    "ex:経典名": "雜讐喩經",
+                    "ex:経典番号": "T0207",
+                    "ex:部門": "本縁部下",
+                    "ex:配本": [
+                        3
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00880.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.522〈9〉此經題號三本倶作衆經撰雑譬喩經，上下兩卷，其文與今大異故，宋元對校明本別附卷末",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

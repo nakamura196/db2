@@ -1,0 +1,113 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08093.json",
+    "ex:sat": [
+        {
+            "@id": "data:08093.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1820_.40.0844c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08093.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08093.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1612",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:❹": "增上寺報恩藏本",
+            "ex:❼": "明萬暦四十年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08093.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08093.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1852",
+            "ex:toページ": 469,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=317",
+            "ex:ページ": "469",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08093.json#基本情報",
+            "ex:No.": "08093",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1820.json",
+                    "ex:出版年月日": [
+                        "1927-06-15"
+                    ],
+                    "ex:収録巻次": 40,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛遺教經論疏節要",
+                    "ex:経典番号": "T1820",
+                    "ex:部門": "律疏部全/論疏部1",
+                    "ex:配本": [
+                        38
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08093.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08093.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1612",
+                    "ex:時代": "明",
+                    "ex:標準名称": "增上寺報恩藏藏本"
+                }
+            ],
+            "ex:テキスト": "明萬暦四十年刊增上寺報恩藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08093.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "增上寺報恩藏"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:08093.json#酉目1",
+            "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1605",
+            "ex:枝番": 1,
+            "ex:經典番號": "U1590",
+            "ex:通番": "1605"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08093.json#酉蓮社本IIIFコレクション1",
+            "ex:from": 27,
+            "ex:to": 92,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/8cec4c92ef9823e16f3c1f88e6547fb3/manifest.json",
+            "ex:画像フォルダ": "u-renja1604-1605",
+            "ex:経典名": "佛遺教經論疏節要1卷"
+        }
+    ]
+}

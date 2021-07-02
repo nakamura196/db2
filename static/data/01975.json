@@ -1,0 +1,78 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01975.json",
+    "ex:sat": [
+        {
+            "@id": "data:01975.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0411_.13.0721a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01975.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01975.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "唐招提寺藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "唐招提寺本",
+            "ex:❼": "奈良時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01975.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "唐招提寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01975.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0412",
+            "ex:toページ": 255,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=103",
+            "ex:ページ": "255",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01975.json#基本情報",
+            "ex:No.": "01975",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0411.json",
+                    "ex:出版年月日": [
+                        "1924-11-20"
+                    ],
+                    "ex:収録巻次": 13,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘大集地藏十輪經",
+                    "ex:経典番号": "T0411",
+                    "ex:部門": "大集部",
+                    "ex:配本": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01975.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

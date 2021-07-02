@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08868.json",
+    "ex:sat": [
+        {
+            "@id": "data:08868.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2056_.50.0292b01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08868.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08868.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1370",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "觀智院藏本"
+                }
+            ],
+            "ex:❹": "觀智院本",
+            "ex:❼": "應安三年寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08868.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "觀智院"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08868.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2097",
+            "ex:toページ": 538,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=386",
+            "ex:ページ": "538",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08868.json#基本情報",
+            "ex:No.": "08868",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2056.json",
+                    "ex:出版年月日": [
+                        "1927-01-15"
+                    ],
+                    "ex:収録巻次": 50,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大唐故大德贈司空大辨正廣智不空三藏行状",
+                    "ex:経典番号": "T2056",
+                    "ex:部門": "史伝部2",
+                    "ex:配本": [
+                        33
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08868.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08868.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1370",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "觀智院藏本"
+                }
+            ],
+            "ex:テキスト": "應安三年寫觀智院藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08868.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "觀智院"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

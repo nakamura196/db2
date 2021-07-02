@@ -1,0 +1,83 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:09265.json",
+    "ex:sat": [
+        {
+            "@id": "data:09265.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2182_.55.1144c06.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:09265.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:09265.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1790",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "諸宗章疏錄本"
+                }
+            ],
+            "ex:❹": "諸宗章疏錄本",
+            "ex:❼": "寛政二年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:09265.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2227",
+            "ex:toページ": 656,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=504",
+            "ex:ページ": "656",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:09265.json#基本情報",
+            "ex:No.": "09265",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2182.json",
+                    "ex:出版年月日": [
+                        "1928-11-15"
+                    ],
+                    "ex:収録巻次": 55,
+                    "ex:枝番": 1,
+                    "ex:経典名": "律宗章疏",
+                    "ex:経典番号": "T2182",
+                    "ex:部門": "目録部全",
+                    "ex:配本": [
+                        55
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:09265.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:09265.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1790",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "諸宗章疏錄本"
+                }
+            ],
+            "ex:テキスト": "寛政二年刊諸宗章疏錄",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

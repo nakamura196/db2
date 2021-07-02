@@ -1,0 +1,108 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07328.json",
+    "ex:sat": [
+        {
+            "@id": "data:07328.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1595_.31.0152a19.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07328.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07328.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:巻": "2",
+                    "ex:年": "581",
+                    "ex:時代": "隋",
+                    "ex:標準名称": "聖本",
+                    "ex:～年": "618"
+                },
+                {
+                    "@id": "data:07328.json#テキスト2（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "1,4,7,8,11,14",
+                    "ex:年": "740",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "聖本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "光明皇后"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏隋經第二號卷第二隋時代寫　願經第一〇九號卷第一、第四、第七、第八、第十―第十四、計九卷天平十二年寫　光明皇后御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07328.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07328.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1626",
+            "ex:toページ": 431,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=278",
+            "ex:ページ": "430",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07328.json#基本情報",
+            "ex:No.": "07328",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1595.json",
+                    "ex:出版年月日": [
+                        "1925-12-15"
+                    ],
+                    "ex:収録巻次": 31,
+                    "ex:枝番": 1,
+                    "ex:経典名": "攝大乘論釋（十五卷）（陳眞諦譯）",
+                    "ex:経典番号": "T1595",
+                    "ex:部門": "瑜伽部下",
+                    "ex:配本": [
+                        20
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07328.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07328.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:巻": "巻6,9,15欠",
+                    "ex:標準名称": "聖本"
+                }
+            ],
+            "ex:テキスト": "〈聖〉",
+            "ex:備考": "（巻6）p.191〈1〉本卷聖本缺、（巻9）p.212〈6〉本卷聖本缺、（巻15）p.263〈1〉本卷聖本缺",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07328.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖〉正倉院聖語藏本（天平寫經）（The Tempyō Mss.〔A. D. 729-〕and the Chinese Mss. of the Sui〔A. D. 581-617〕 and Tang〔A. D. 618-822〕dynasties, belonging to the Imperial Treasure House Shōsō-in at Nara, specially called Shōgo-zō）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

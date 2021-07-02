@@ -1,0 +1,98 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07286.json",
+    "ex:sat": [
+        {
+            "@id": "data:07286.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1587_.31.0061c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07286.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07286.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "715",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "知恩院藏本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "知恩院本",
+            "ex:❼": "知恩院藏本奈良時代寫",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07286.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "知恩院"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07286.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1618",
+            "ex:toページ": 429,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=277",
+            "ex:ページ": "429",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07286.json#基本情報",
+            "ex:No.": "07286",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1587.json",
+                    "ex:出版年月日": [
+                        "1925-12-15"
+                    ],
+                    "ex:収録巻次": 31,
+                    "ex:枝番": 1,
+                    "ex:経典名": "轉識論",
+                    "ex:経典番号": "T1587",
+                    "ex:部門": "瑜伽部下",
+                    "ex:配本": [
+                        20
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07286.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07286.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "729",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "知恩院藏本",
+                    "ex:～年": "749"
+                }
+            ],
+            "ex:テキスト": "〈知〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:07286.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "知恩院"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈知〉知恩院本（The Tempyō Mss. of the monastery ‘Chion-in’）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

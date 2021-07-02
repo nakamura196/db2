@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08306.json",
+    "ex:sat": [
+        {
+            "@id": "data:08306.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1835_.44.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08306.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08306.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1448",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:❹": "東大寺本",
+            "ex:❼": "文安五年寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08306.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08306.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1867",
+            "ex:toページ": 475,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08306.json#基本情報",
+            "ex:No.": "08306",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1835.json",
+                    "ex:出版年月日": [
+                        "1927-07-15"
+                    ],
+                    "ex:収録巻次": 44,
+                    "ex:枝番": 1,
+                    "ex:経典名": "辯中邊論述記",
+                    "ex:経典番号": "T1835",
+                    "ex:部門": "論疏部5/諸宗部1",
+                    "ex:配本": [
+                        39
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08306.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08306.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1448",
+                    "ex:時代": "室町",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:テキスト": "文安五年寫東大寺藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08306.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

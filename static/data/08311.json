@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08311.json",
+    "ex:sat": [
+        {
+            "@id": "data:08311.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1837_.44.0052c22.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08311.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08311.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1869",
+            "ex:toページ": 475,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08311.json#基本情報",
+            "ex:No.": "08311",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1837.json",
+                    "ex:出版年月日": [
+                        "1927-07-15"
+                    ],
+                    "ex:収録巻次": 44,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘百法明門論疏",
+                    "ex:経典番号": "T1837",
+                    "ex:部門": "論疏部5/諸宗部1",
+                    "ex:配本": [
+                        39
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08311.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

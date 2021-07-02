@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04250.json",
+    "ex:sat": [
+        {
+            "@id": "data:04250.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0862_.18.0189b26.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04250.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:04250.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1801",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "長谷寺藏本"
+                }
+            ],
+            "ex:❹": "長谷寺本",
+            "ex:❼": "享和元年刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04250.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "長谷寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04250.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0863",
+            "ex:toページ": 308,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=156",
+            "ex:ページ": "308",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04250.json#基本情報",
+            "ex:No.": "04250",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0862.json",
+                    "ex:出版年月日": [
+                        "1928-04-15"
+                    ],
+                    "ex:収録巻次": 18,
+                    "ex:枝番": 1,
+                    "ex:経典名": "阿闍梨大曼荼攞灌頂儀軌",
+                    "ex:経典番号": "T0862",
+                    "ex:部門": "密教部1",
+                    "ex:配本": [
+                        48
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04250.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:04250.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1801",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "長谷寺藏本"
+                }
+            ],
+            "ex:テキスト": "享和元年刊長谷寺藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:04250.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "長谷寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

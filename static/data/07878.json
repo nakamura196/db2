@@ -1,0 +1,83 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07878.json",
+    "ex:sat": [
+        {
+            "@id": "data:07878.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1730_.34.0961a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07878.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07878.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1923",
+                    "ex:時代": "大正",
+                    "ex:標準名称": "朝鮮佛教會本"
+                }
+            ],
+            "ex:❹": "朝鮮佛教會本",
+            "ex:❼": "大正十二年刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07878.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1762",
+            "ex:toページ": 455,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=303",
+            "ex:ページ": "455",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07878.json#基本情報",
+            "ex:No.": "07878",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1730.json",
+                    "ex:出版年月日": [
+                        "1926-09-15"
+                    ],
+                    "ex:収録巻次": 34,
+                    "ex:枝番": 1,
+                    "ex:経典名": "金剛三昧經論",
+                    "ex:経典番号": "T1730",
+                    "ex:部門": "経疏部2",
+                    "ex:配本": [
+                        29
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07878.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:07878.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1923",
+                    "ex:時代": "大正",
+                    "ex:標準名称": "朝鮮佛教會本"
+                }
+            ],
+            "ex:テキスト": "大正十二年刊朝鮮佛教會本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

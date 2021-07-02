@@ -1,0 +1,84 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08052.json",
+    "ex:sat": [
+        {
+            "@id": "data:08052.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1806_.40.0429a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08052.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08052.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1905",
+                    "ex:時代": "明治・大正",
+                    "ex:標準名称": "大日本續藏經",
+                    "ex:～年": "1912"
+                }
+            ],
+            "ex:❹": "續藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08052.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1838",
+            "ex:toページ": 468,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=316",
+            "ex:ページ": "468",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08052.json#基本情報",
+            "ex:No.": "08052",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1806.json",
+                    "ex:出版年月日": [
+                        "1927-06-15"
+                    ],
+                    "ex:収録巻次": 40,
+                    "ex:枝番": 1,
+                    "ex:経典名": "四分律比丘含注戒本",
+                    "ex:経典番号": "T1806",
+                    "ex:部門": "律疏部全/論疏部1",
+                    "ex:配本": [
+                        38
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08052.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08052.json#テキスト1（脚注）",
+                    "ex:刊写形態": "排印",
+                    "ex:国": "日本",
+                    "ex:年": "1905",
+                    "ex:時代": "明治・大正",
+                    "ex:標準名称": "大日本續藏經",
+                    "ex:～年": "1912"
+                }
+            ],
+            "ex:テキスト": "大日本續藏經",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

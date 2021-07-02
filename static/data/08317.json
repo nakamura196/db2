@@ -1,0 +1,83 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08317.json",
+    "ex:sat": [
+        {
+            "@id": "data:08317.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1840_.44.0091b04.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08317.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08317.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1671",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "寛文十一年版本"
+                }
+            ],
+            "ex:❹": "寛文十一年版本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08317.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1872",
+            "ex:toページ": 475,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08317.json#基本情報",
+            "ex:No.": "08317",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1840.json",
+                    "ex:出版年月日": [
+                        "1927-07-15"
+                    ],
+                    "ex:収録巻次": 44,
+                    "ex:枝番": 1,
+                    "ex:経典名": "因明入正理論疏",
+                    "ex:経典番号": "T1840",
+                    "ex:部門": "論疏部5/諸宗部1",
+                    "ex:配本": [
+                        39
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08317.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08317.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1671",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "寛文十一年版本",
+                    "ex:関与形態": "校正"
+                }
+            ],
+            "ex:テキスト": "寛文十一年版校正本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

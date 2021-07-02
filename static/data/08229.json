@@ -1,0 +1,91 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08229.json",
+    "ex:sat": [
+        {
+            "@id": "data:08229.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1822_.41.0677c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08229.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08229.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1704",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "寶永元年版本"
+                }
+            ],
+            "ex:❹": "同前",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08229.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1854",
+            "ex:toページ": 471,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=318",
+            "ex:ページ": "470",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08229.json#基本情報",
+            "ex:No.": "08229",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1822.json",
+                    "ex:出版年月日": [
+                        "1927-11-15"
+                    ],
+                    "ex:収録巻次": 41,
+                    "ex:枝番": 19,
+                    "ex:経典名": "倶舍論疏卷第十八",
+                    "ex:経典番号": "T1822",
+                    "ex:部門": "論疏部2",
+                    "ex:配本": [
+                        43
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08229.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08229.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "806",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "石山寺藏本",
+                    "ex:関与形態": "保延3年（1137）校",
+                    "ex:関与者": "覺樹",
+                    "ex:～年": "1185"
+                }
+            ],
+            "ex:テキスト": "保延三年覺樹校石山寺藏寫本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08229.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "石山寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

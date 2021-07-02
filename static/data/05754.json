@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:05754.json",
+    "ex:sat": [
+        {
+            "@id": "data:05754.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1246_.21.0219b14.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:05754.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:05754.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "805",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本",
+                    "ex:～年": "806"
+                }
+            ],
+            "ex:❹": "三十帖策子本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:05754.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:05754.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1277",
+            "ex:toページ": 366,
+            "ex:to段": "c",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=214",
+            "ex:ページ": "366",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:05754.json#基本情報",
+            "ex:No.": "05754",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1246.json",
+                    "ex:出版年月日": [
+                        "1928-08-15"
+                    ],
+                    "ex:収録巻次": 21,
+                    "ex:枝番": 1,
+                    "ex:経典名": "摩訶吠室囉末那野提婆喝囉闍陀羅尼儀軌",
+                    "ex:経典番号": "T1246",
+                    "ex:部門": "密教部4",
+                    "ex:配本": [
+                        52
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:05754.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:05754.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "C. 800",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本（第22帖）"
+                }
+            ],
+            "ex:テキスト": "三十帖策子第二十二",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:05754.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

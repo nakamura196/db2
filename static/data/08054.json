@@ -1,0 +1,60 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08054.json",
+    "ex:sat": [
+        {
+            "@id": "data:08054.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1807_.40.0463a15.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08054.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08054.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1839",
+            "ex:toページ": 468,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=316",
+            "ex:ページ": "468",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08054.json#基本情報",
+            "ex:No.": "08054",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1807.json",
+                    "ex:出版年月日": [
+                        "1927-06-15"
+                    ],
+                    "ex:収録巻次": 40,
+                    "ex:枝番": 1,
+                    "ex:経典名": "四分比丘戒本疏",
+                    "ex:経典番号": "T1807",
+                    "ex:部門": "律疏部全/論疏部1",
+                    "ex:配本": [
+                        38
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08054.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

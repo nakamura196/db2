@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08274.json",
+    "ex:sat": [
+        {
+            "@id": "data:08274.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1825_.42.0171a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08274.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08274.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "前田慧雲藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:❹": "前田本",
+            "ex:❼": "前田慧雲藏本德川時代刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08274.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "前田慧雲"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08274.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1857",
+            "ex:toページ": 472,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=320",
+            "ex:ページ": "472",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08274.json#基本情報",
+            "ex:No.": "08274",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1825.json",
+                    "ex:出版年月日": [
+                        "1927-04-15"
+                    ],
+                    "ex:収録巻次": 42,
+                    "ex:枝番": 1,
+                    "ex:経典名": "十二門論疏",
+                    "ex:経典番号": "T1825",
+                    "ex:部門": "論疏部3",
+                    "ex:配本": [
+                        36
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08274.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08274.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1603",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "前田慧雲藏本",
+                    "ex:～年": "1868"
+                }
+            ],
+            "ex:テキスト": "德川時代刊前田慧雲氏藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08274.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "前田慧雲"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

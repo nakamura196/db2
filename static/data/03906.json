@@ -1,0 +1,79 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03906.json",
+    "ex:sat": [
+        {
+            "@id": "data:03906.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0789_.17.0727c01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03906.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:03906.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "中国",
+                    "ex:年": "805",
+                    "ex:時代": "唐",
+                    "ex:標準名称": "仁和寺藏三十帖策子本",
+                    "ex:関与形態": "請来",
+                    "ex:関与者": "空海"
+                }
+            ],
+            "ex:❹": "仁和寺本",
+            "ex:❼": "仁和寺藏三十帖策子本・唐永貞元年寫　空海請来",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:03906.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "仁和寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03906.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0790",
+            "ex:toページ": 298,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=146",
+            "ex:ページ": "298",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03906.json#基本情報",
+            "ex:No.": "03906",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0789.json",
+                    "ex:出版年月日": [
+                        "1925-09-15"
+                    ],
+                    "ex:収録巻次": 17,
+                    "ex:枝番": 1,
+                    "ex:経典名": "金剛頂瑜伽念珠經",
+                    "ex:経典番号": "T0789",
+                    "ex:部門": "経集部4",
+                    "ex:配本": [
+                        17
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03906.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

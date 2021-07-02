@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:04795.json",
+    "ex:sat": [
+        {
+            "@id": "data:04795.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0998_.19.0577a19.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:04795.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:04795.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1012",
+            "ex:toページ": 332,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=180",
+            "ex:ページ": "332",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:04795.json#基本情報",
+            "ex:No.": "04795",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0998.json",
+                    "ex:出版年月日": [
+                        "1928-10-15"
+                    ],
+                    "ex:収録巻次": 19,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説迴向輪經",
+                    "ex:経典番号": "T0998",
+                    "ex:部門": "密教部2",
+                    "ex:配本": [
+                        54
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:04795.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.577〈1〉此經宋元明三本倶欠",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

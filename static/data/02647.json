@@ -1,0 +1,61 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:02647.json",
+    "ex:sat": [
+        {
+            "@id": "data:02647.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0540_.14.0825a18.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:02647.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": "校本無",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:02647.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0541",
+            "ex:toページ": 270,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=118",
+            "ex:ページ": "270",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:02647.json#基本情報",
+            "ex:No.": "02647",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0540.json",
+                    "ex:出版年月日": [
+                        "1925-01-20"
+                    ],
+                    "ex:収録巻次": 14,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説樹提伽經",
+                    "ex:経典番号": "T0540",
+                    "ex:部門": "経集部1",
+                    "ex:配本": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:02647.json#脚注",
+            "ex:texts": [],
+            "ex:備考": "p.825〈4〉此經〈麗〉與〈三〉倶大異，今以〈宋〉〈元〉對校〈明〉，別附卷末",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,97 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:06374.json",
+    "ex:sat": [
+        {
+            "@id": "data:06374.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1421_.22.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:06374.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:06374.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "1,3-7,9-11,13,14,16-30",
+                    "ex:年": "767",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "聖本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "孝謙天皇",
+                    "ex:～年": "770"
+                }
+            ],
+            "ex:❹": "聖本",
+            "ex:❼": "聖語藏景雲經第五號・卷第一、第三―第七、第九―第十一、第十三、第十四、第十六―第三十、計二十七卷神護景雲年寫孝謙天皇御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06374.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:06374.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1452",
+            "ex:toページ": 386,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=234",
+            "ex:ページ": "386",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:06374.json#基本情報",
+            "ex:No.": "06374",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1421.json",
+                    "ex:出版年月日": [
+                        "1926-04-15"
+                    ],
+                    "ex:収録巻次": 22,
+                    "ex:枝番": 1,
+                    "ex:経典名": "彌沙塞部和醯五分律",
+                    "ex:経典番号": "T1421",
+                    "ex:部門": "律部1",
+                    "ex:配本": [
+                        24
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:06374.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:06374.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:標準名称": "聖本"
+                }
+            ],
+            "ex:テキスト": "〈聖〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:06374.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "正倉院聖語藏"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈聖〉正倉院聖語藏本（天平寫經）（The Tempyō Mss.〔A. D. 729-〕and the Chinese Mss. of the Sui〔A. D. 581-617〕 and Tang〔A. D. 618-822〕dynasties, belonging to the Imperial Treasure House Shōsō-in at Nara, specially called Shōgo-zō）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

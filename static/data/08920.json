@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08920.json",
+    "ex:sat": [
+        {
+            "@id": "data:08920.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2073_.51.0153a08.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08920.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08920.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1711",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "大谷大學藏本"
+                }
+            ],
+            "ex:❹": "大谷大學本",
+            "ex:❼": "正德元年刊",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08920.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "大谷大學"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08920.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2114",
+            "ex:toページ": 556,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=403",
+            "ex:ページ": "555",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08920.json#基本情報",
+            "ex:No.": "08920",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2073.json",
+                    "ex:出版年月日": [
+                        "1928-03-15"
+                    ],
+                    "ex:収録巻次": 51,
+                    "ex:枝番": 1,
+                    "ex:経典名": "華嚴經傳記",
+                    "ex:経典番号": "T2073",
+                    "ex:部門": "史伝部3",
+                    "ex:配本": [
+                        47
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08920.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08920.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1711",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "大谷大學藏本"
+                }
+            ],
+            "ex:テキスト": "正德元年刊大谷大學藏本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08920.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "大谷大學"
+                }
+            ],
+            "ex:新添": "〈甲〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

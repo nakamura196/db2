@@ -1,0 +1,95 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:08906.json",
+    "ex:sat": [
+        {
+            "@id": "data:08906.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2067_.51.0012b15.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:08906.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:08906.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1120",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:❹": "東大寺本",
+            "ex:❼": "保安元年寫",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08906.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:08906.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km2108",
+            "ex:toページ": 552,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=399",
+            "ex:ページ": "551",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:08906.json#基本情報",
+            "ex:No.": "08906",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2067.json",
+                    "ex:出版年月日": [
+                        "1928-03-15"
+                    ],
+                    "ex:収録巻次": 51,
+                    "ex:枝番": 1,
+                    "ex:経典名": "弘賛法華傳",
+                    "ex:経典番号": "T2067",
+                    "ex:部門": "史伝部3",
+                    "ex:配本": [
+                        47
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:08906.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:08906.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "1120",
+                    "ex:時代": "平安",
+                    "ex:標準名称": "東大寺藏本"
+                }
+            ],
+            "ex:テキスト": "保安元年寫東大寺藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:08906.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "東大寺"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

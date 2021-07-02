@@ -1,0 +1,100 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:01899.json",
+    "ex:sat": [
+        {
+            "@id": "data:01899.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0397_.13.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:01899.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:01899.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:巻": "52,56",
+                    "ex:年": "740",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "久原文庫藏本",
+                    "ex:関与形態": "御願",
+                    "ex:関与者": "光明皇后"
+                }
+            ],
+            "ex:❹": "久原文庫本",
+            "ex:❼": "久原文庫藏本・卷第五二月藏第一二、卷第五六月藏分第一二、天平十二年寫　光明皇后御願",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01899.json#所蔵者1（勘同目録）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "久原文庫"
+                }
+            ]
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:01899.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0398",
+            "ex:toページ": 253,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=99",
+            "ex:ページ": "251",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:01899.json#基本情報",
+            "ex:No.": "01899",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0397.json",
+                    "ex:出版年月日": [
+                        "1924-11-20"
+                    ],
+                    "ex:収録巻次": 13,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大方等大集經（北涼曇無讖譯）",
+                    "ex:経典番号": "T0397",
+                    "ex:部門": "大集部",
+                    "ex:配本": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:01899.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:01899.json#テキスト1（脚注）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "日本",
+                    "ex:年": "729",
+                    "ex:時代": "奈良",
+                    "ex:標準名称": "久原文庫藏本",
+                    "ex:～年": "749"
+                }
+            ],
+            "ex:テキスト": "〈久〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:01899.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "久原文庫"
+                }
+            ],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈久〉久原文庫本（The Tempyō Mss. belonging to the Kuhara Library）"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

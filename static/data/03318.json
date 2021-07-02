@@ -1,0 +1,68 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:03318.json",
+    "ex:sat": [
+        {
+            "@id": "data:03318.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0672_.16.0587a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:03318.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:03318.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "西域",
+                    "ex:標準名称": "梵本"
+                }
+            ],
+            "ex:❹": "梵本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:03318.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0673",
+            "ex:toページ": 287,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=134",
+            "ex:ページ": "286",
+            "ex:段": "c"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:03318.json#基本情報",
+            "ex:No.": "03318",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0672.json",
+                    "ex:出版年月日": [
+                        "1925-05-15"
+                    ],
+                    "ex:収録巻次": 16,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘入楞伽經",
+                    "ex:経典番号": "T0672",
+                    "ex:部門": "経集部3",
+                    "ex:配本": [
+                        13
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:03318.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

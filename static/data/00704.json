@@ -1,0 +1,92 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:00704.json",
+    "ex:sat": [
+        {
+            "@id": "data:00704.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T0168_.03.0410a07.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:00704.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:00704.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1601",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本"
+                }
+            ],
+            "ex:❹": "明本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:00704.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km0169",
+            "ex:toページ": 192,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=40",
+            "ex:ページ": "192",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:00704.json#基本情報",
+            "ex:No.": "00704",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T0168.json",
+                    "ex:出版年月日": [
+                        "1924-06-20"
+                    ],
+                    "ex:収録巻次": 3,
+                    "ex:枝番": 1,
+                    "ex:経典名": "佛説太子墓魄經",
+                    "ex:経典番号": "T0168",
+                    "ex:部門": "本縁部上",
+                    "ex:配本": [
+                        2
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:00704.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:00704.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1601",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本"
+                }
+            ],
+            "ex:テキスト": "〈明〉",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": [],
+            "ex:略号の使用": "専号使用",
+            "ex:略号解説": "〈明〉明本（The ‘Ming Edition’ A. D. 1601）"
+        }
+    ],
+    "ex:酉目": [
+        {
+            "@id": "data:00704.json#酉目1",
+            "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=220",
+            "ex:枝番": 1,
+            "ex:經典番號": "U0215",
+            "ex:通番": "220"
+        }
+    ],
+    "ex:酉蓮社本IIIコレクション": []
+}

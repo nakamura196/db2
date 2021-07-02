@@ -1,0 +1,91 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:05903.json",
+    "ex:sat": [
+        {
+            "@id": "data:05903.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1292_.21.0377a11.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:05903.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:05903.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1716",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "豐山本",
+                    "ex:～年": "1736"
+                }
+            ],
+            "ex:❹": "豐山本",
+            "ex:❼": "享保年間刊",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:05903.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1323",
+            "ex:toページ": 371,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=219",
+            "ex:ページ": "371",
+            "ex:段": "b"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:05903.json#基本情報",
+            "ex:No.": "05903",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1292.json",
+                    "ex:出版年月日": [
+                        "1928-08-15"
+                    ],
+                    "ex:収録巻次": 21,
+                    "ex:枝番": 1,
+                    "ex:経典名": "法華十羅刹法",
+                    "ex:経典番号": "T1292",
+                    "ex:部門": "密教部4",
+                    "ex:配本": [
+                        52
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:05903.json#脚注",
+            "ex:texts": [
+                {
+                    "@id": "data:05903.json#テキスト1（脚注）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "日本",
+                    "ex:年": "1716",
+                    "ex:時代": "江戸",
+                    "ex:標準名称": "豐山大學藏本",
+                    "ex:～年": "1736"
+                }
+            ],
+            "ex:テキスト": "享保年間刊豐山大學藏本",
+            "ex:底本/校本": "底本",
+            "ex:所蔵者": [
+                {
+                    "@id": "data:05903.json#所蔵者1（脚注）",
+                    "ex:国": "日本",
+                    "ex:所蔵者": "豐山大學"
+                }
+            ],
+            "ex:新添": "〈原〉"
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

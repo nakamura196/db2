@@ -1,0 +1,70 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07202.json",
+    "ex:sat": [
+        {
+            "@id": "data:07202.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1574_.30.0254a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07202.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07202.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1239",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宋本"
+                }
+            ],
+            "ex:❹": "宋本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07202.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1605",
+            "ex:toページ": 424,
+            "ex:to段": "a",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=272",
+            "ex:ページ": "424",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07202.json#基本情報",
+            "ex:No.": "07202",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1574.json",
+                    "ex:出版年月日": [
+                        "1927-10-15"
+                    ],
+                    "ex:収録巻次": 30,
+                    "ex:枝番": 1,
+                    "ex:経典名": "大乘破有論",
+                    "ex:経典番号": "T1574",
+                    "ex:部門": "中観部全/瑜伽部上",
+                    "ex:配本": [
+                        42
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07202.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

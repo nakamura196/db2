@@ -1,0 +1,68 @@
+{
+    "@context": "https://taishozo.github.io/db/context.json",
+    "@id": "data:07121.json",
+    "ex:sat": [
+        {
+            "@id": "data:07121.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1558_.29.0001a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:07121.json#勘同目録",
+            "ex:texts": [
+                {
+                    "@id": "data:07121.json#テキスト1（勘同目録）",
+                    "ex:刊写形態": "写",
+                    "ex:国": "西域",
+                    "ex:標準名称": "梵本"
+                }
+            ],
+            "ex:❹": "梵本",
+            "ex:底本/校本": "校本",
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:07121.json#勘同目録IIIFコレクション",
+            "ex:kmID": "km1589",
+            "ex:toページ": 420,
+            "ex:to段": "b",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=267",
+            "ex:ページ": "419",
+            "ex:段": "a"
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:07121.json#基本情報",
+            "ex:No.": "07121",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1558.json",
+                    "ex:出版年月日": [
+                        "1926-02-15"
+                    ],
+                    "ex:収録巻次": 29,
+                    "ex:枝番": 1,
+                    "ex:経典名": "阿毘達磨倶舍論",
+                    "ex:経典番号": "T1558",
+                    "ex:部門": "毘曇部4",
+                    "ex:配本": [
+                        22
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:脚注": [
+        {
+            "@id": "data:07121.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}
