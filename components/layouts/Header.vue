@@ -31,7 +31,7 @@
         </nuxt-link>
       </v-toolbar-title>
 
-      <FullTextSearch background-color="white" :header="true"></FullTextSearch>
+      <CFullTextSearch :header="true"></CFullTextSearch>
 
       <v-spacer></v-spacer>
 
@@ -72,11 +72,11 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import FullTextSearch from '~/components/common/search/FullTextSearch.vue'
+import CFullTextSearch from '~/components/common/search/CFullTextSearch.vue'
 
 @Component({
   components: {
-    FullTextSearch,
+    CFullTextSearch,
   },
 })
 export default class Header extends Vue {

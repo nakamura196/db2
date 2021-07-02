@@ -81,7 +81,7 @@ export default class FullTextSearch extends Vue {
   @Prop({ default: 'default' })
   configId!: string
 
-  @Prop({ default: 'white' })
+  @Prop({ default: '' })
   backgroundColor!: string
 
   @Prop({ default: false })

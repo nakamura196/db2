@@ -10,10 +10,10 @@
       <template v-if="!loading">
         <v-row class="mt-2" dense justify="center" align-content="center">
           <v-col cols="12" sm="10">
-            <FullTextSearch
+            <CFullTextSearch
               background-color="grey lighten-3"
               :to="config.to"
-            ></FullTextSearch>
+            ></CFullTextSearch>
           </v-col>
         </v-row>
       </template>
@@ -25,13 +25,13 @@
 import { Component, Vue, Prop } from 'nuxt-property-decorator'
 import CLoading from '~/components/common/CLoading.vue'
 import CBreadcrumbs from '~/components/common/CLoading.vue'
-import FullTextSearch from '~/components/common/search/FullTextSearch.vue'
+import CFullTextSearch from '~/components/common/search/CFullTextSearch.vue'
 
 @Component({
   components: {
     CBreadcrumbs,
     CLoading,
-    FullTextSearch,
+    CFullTextSearch,
   },
 })
 export default class Page extends Vue {
